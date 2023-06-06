@@ -14,7 +14,6 @@ export default function HeaderUp() {
       </div>
       <div className="h-links">
         <ul>
-
           {/* Home */}
           <li>
             <Link to="/">Home</Link>
@@ -24,24 +23,22 @@ export default function HeaderUp() {
               for everything
             </p>
           </li>
-          
+
           {/* Gallery */}
           <li>
             <Link to="/">
-              Gallery 
+              Gallery
               <img src={Drop} alt="dropdown" />
             </Link>
             <p>
-                Glimpse of our
-                <br/>
-                heritage and pride
+              Glimpse of our
+              <br />
+              heritage and pride
             </p>
             <div class="dropdown-menu">
               <ul>
                 <li>
-                  <Link to="">
-                    About
-                  </Link>
+                  <Link to="">About</Link>
                   <div class="dropdown-menu-1">
                     <ul>
                       <li>
@@ -172,7 +169,7 @@ export default function HeaderUp() {
               </ul>
             </div>
           </li>
-          
+
           {/* Administration */}
           <li>
             <Link to="/administration">
@@ -187,19 +184,15 @@ export default function HeaderUp() {
             <div class="dropdown-menu">
               <ul>
                 <li>
-                  <Link to="">
-                    About
-                  </Link>
+                  <Link to="">About</Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Board of Directors
-                    </a>
+                  <a href="#">Board of Directors</a>
                 </li>
               </ul>
             </div>
           </li>
-          
+
           {/* MIS Dashboard */}
           <li>
             <Link to="/mis-dashboard">
@@ -214,19 +207,15 @@ export default function HeaderUp() {
             <div class="dropdown-menu">
               <ul>
                 <li>
-                  <Link to="">
-                    About
-                  </Link>
+                  <Link to="">About</Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Board of Directors
-                    </a>
+                  <a href="#">Board of Directors</a>
                 </li>
               </ul>
             </div>
           </li>
-          
+
           {/* Finance */}
           <li>
             <Link to="/finance">
@@ -241,19 +230,15 @@ export default function HeaderUp() {
             <div class="dropdown-menu">
               <ul>
                 <li>
-                  <Link to="">
-                    About
-                  </Link>
+                  <Link to="">About</Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Board of Directors
-                    </a>
+                  <a href="#">Board of Directors</a>
                 </li>
               </ul>
             </div>
           </li>
-          
+
           {/* Procurement */}
           <li>
             <Link to="/procurement">
@@ -268,19 +253,14 @@ export default function HeaderUp() {
             <div class="dropdown-menu">
               <ul>
                 <li>
-                  <Link to="">
-                    About
-                  </Link>
+                  <Link to="">About</Link>
                 </li>
                 <li>
-                    <a href="#">
-                        Board of Directors
-                    </a>
+                  <a href="#">Board of Directors</a>
                 </li>
               </ul>
             </div>
           </li>
-
         </ul>
       </div>
     </div>
