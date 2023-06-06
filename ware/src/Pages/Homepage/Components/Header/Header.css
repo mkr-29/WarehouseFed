@@ -1,6 +1,19 @@
+.head-main{
+    display: flex;
+    flex-direction: column;
+}
+.head-main span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #06726D;
+    padding: 0.3rem 8.5rem;
+}
 #header{
     display: flex;
-    padding: 2rem 8rem;
+    padding: 3rem 8rem 0rem 8rem;
     justify-content: space-between;
     gap: 6rem;
     align-items: center;
@@ -67,7 +80,7 @@
     display: block;
     position: absolute;
     left: -10%;
-    top: 80%;
+    top: 25%;
     z-index: 100;
     background-color: var(--color-black);
 }
@@ -81,13 +94,21 @@
 
 .h-links ul li:hover .dropdown-menu ul li {
     width: 180px;
-    padding: 10px;
+    padding: 0;
+    margin: 0;
 }
 
 .dropdown-menu-1 {
     display: none;
 }
-
+.dropdown-menu ul{
+    padding: 4px 0px 5px 10px;
+    margin: 13px 0px 0 8px;
+}
+.dropdown-menu ul li a{
+    font-size: 14px;
+    font-weight: 500;
+}
 .dropdown-menu ul li:hover .dropdown-menu-1 {
     display: block;
     position: absolute;
