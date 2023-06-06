@@ -1,6 +1,107 @@
 #header{
     display: flex;
+    padding: 2rem 8rem;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+    position: relative;
 }
-.h-links ul{
+.h-logos{
+    width: 11.9rem;
     display: flex;
+    justify-content: space-between;
+}
+.h-links{
+    display: flex;
+    width: 100%;
+}
+.h-links ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.h-links ul li{
+    position: relative;
+}
+.h-links ul li a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #06726D;
+    text-decoration: none;
+    display: flex;
+    gap: 0.7rem;
+}
+.h-links ul li p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #189C96;
+    margin: 0;
+}
+
+.h-links ul li a:hover {
+    color: var(--color-primary);
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+/* dropdown menu style */
+.dropdown-menu {
+    display: none;
+}
+
+.h-links ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: -10%;
+    top: 80%;
+    z-index: 100;
+    background-color: var(--color-black);
+}
+
+.h-links ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+    background-color: #d7d7d7;
+    padding-left: 1rem;
+}
+
+.h-links ul li:hover .dropdown-menu ul li {
+    width: 180px;
+    padding: 10px;
+}
+
+.dropdown-menu-1 {
+    display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 170px;
+    top: -0.60rem;
+    background-color: var(--color-black);
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 ul {
+    background-color: #898989;
+    width: 15rem;
+    color: white;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 ul li {
+    width: 100%;
 }
