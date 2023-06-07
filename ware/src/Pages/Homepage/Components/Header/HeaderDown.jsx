@@ -40,7 +40,7 @@ export default function HeaderDown() {
             <Link to="">Contact Us</Link>
             <span className="hdspan" />
           </li>
-          <li>
+          <li className="h-socials">
             <Link to="">
               <img src={Fb} alt="facebook" />
             </Link>

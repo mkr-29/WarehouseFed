@@ -139,15 +139,17 @@
 }
 .hd-links ul{
     display: flex;
-    width: 100%;
+    width: 80%;
     list-style: none;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 .hd-links ul li{
     display: flex;
-    width: 100%;
-    gap: 2rem;
+    /* width: 100%; */
+    /* gap: 2rem; */
 }
 .hd-links ul a{
     font-family: 'Ubuntu';
@@ -159,11 +161,12 @@
     text-decoration: none;
 }
 .hdspan{
-    background-color: red;
+    background-color: #189C96;
     padding: 0 !important;
     margin: 0 !important;
-    height: 100%;
-    width: 1px;
+    height: 30px;
+    width: 0.9px;
+    margin-left: 1rem !important;
 }
 .search-ar{
     display: flex;
@@ -203,5 +206,19 @@
     cursor: pointer;
 }
 .hd-notification img{
-    width: 1rem
+    width: 35px;
+}
+.h-socials{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.h-socials a img{
+    width: 29px;
+}
+.hd-notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
 }
