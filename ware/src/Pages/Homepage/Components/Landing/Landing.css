@@ -3,5 +3,8 @@
     margin-top: 2rem;
 }
 .landing-l{
-    width: 50%;
+    width: 55%;
+    background: linear-gradient(93.42deg, #06726D 43.4%, #99B7D2 214.34%);
+    border-radius: 11px;
+    padding: 1.5rem 1.4rem 3.5rem 1.4rem;
 }

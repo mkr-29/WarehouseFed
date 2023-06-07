@@ -1,0 +1,43 @@
+.textcar h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+.textcar h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.textcar h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.textcar p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 90%;
+}
+.slick-prev {
+    left: 39rem;
+    top: 11.5rem;
+}
+.slick-next {
+    right: 1rem;
+    top: 11.5rem;
+}
+.slick-prev:before{
+    content: url(./Assets/Prev.svg);
+}
+.slick-next:before{
+    content: url(./Assets/Next.svg);
+}
