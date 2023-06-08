@@ -150,6 +150,7 @@
     display: flex;
     /* width: 100%; */
     /* gap: 2rem; */
+    align-items: center;
 }
 .hd-links ul a{
     font-family: 'Ubuntu';
@@ -164,7 +165,7 @@
     background-color: #189C96;
     padding: 0 !important;
     margin: 0 !important;
-    height: 30px;
+    height: 20px;
     width: 0.9px;
     margin-left: 1rem !important;
 }

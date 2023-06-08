@@ -1,0 +1,105 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8rem;
+}
+.infoot{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.foot-1{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    margin-right: 2rem;
+}
+.foot-1 div{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.foot-1 div img{
+    width: 30px;
+}
+.foot-1 div span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #06726D;
+    margin-bottom: 0.3rem;
+}
+.noti-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    color: #18A9A2;
+    text-decoration: none;
+    max-width: max-content;
+}
+.foot-1 span:nth-child(3) {
+    background-color: #18A9A2;
+    width: 16%;
+    height: 2px;
+    margin: 0.3rem 0;
+}
+.foot-1 a:nth-child(5){
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #06726D;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.3rem;
+    max-width: max-content;
+}
+.foot-1 a:nth-child(5) img{
+    width: 30px;
+}
+.infoot img{
+    width: 40%;
+}
+.foot-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.foot-2 a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #06726D;
+    text-decoration: none;
+    max-width: max-content;
+    width: 120%;
+}
+.foot-dash{
+    background-color: #10C1B9;
+    width: 1px;
+    height: 5rem;
+    margin-top: 6rem;
+}
+.copyrights{
+    background: #06726D;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
