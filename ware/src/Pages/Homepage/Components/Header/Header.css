@@ -207,7 +207,7 @@
     cursor: pointer;
 }
 .hd-notification img{
-    width: 35px;
+    width: 22px;
 }
 .h-socials{
     display: flex;
@@ -215,7 +215,7 @@
     gap: 1rem;
 }
 .h-socials a img{
-    width: 29px;
+    width: 22px;
 }
 .hd-notification{
     display: flex;
