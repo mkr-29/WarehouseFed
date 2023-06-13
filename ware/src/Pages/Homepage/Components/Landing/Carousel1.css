@@ -28,7 +28,7 @@
     width: 90%;
 }
 .slick-prev {
-    left: 39rem;
+    left: 88%;
     top: 11.5rem;
 }
 .slick-next {
@@ -40,4 +40,84 @@
 }
 .slick-next:before{
     content: url(./Assets/Next.svg);
+}
+
+
+@media screen and (min-width: 1700px){
+    .textcar h2{
+        font-size: 36px;
+    }
+    .textcar h3{
+        font-size: 26px;
+    }
+    .textcar p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 1900px){
+    .textcar p{
+        font-size: 16px;
+    }
+    .slick-prev{
+        left: 90%;
+    }
+}
+@media screen and (min-width: 2150px){
+    .textcar h2 {
+        font-size: 38px;
+    }
+    .textcar h3 {
+        font-size: 28px;
+    }
+    .textcar p {
+        font-size: 18px;
+    }
+    .landing-r h3 {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 2400px){
+    .textcar h2 {
+        font-size: 44px;
+    }
+    .textcar h3 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .textcar p {
+        font-size: 22px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 1500px){
+    .textcar h2{
+        font-size: 28px !important;
+        line-height: 30px !important;
+    }
+    .textcar h3{
+        font-size: 20px !important;
+    }
+    .slick-prev, .slick-next{
+        top: 10.5rem !important;
+    }
+    .slick-prev{
+        left: 85%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .textcar h2 {
+        font-size: 24px !important;
+    }
+    .textcar h3 {
+        font-size: 16px !important;
+    }
+    .textcar p{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .slick-prev, .slick-next{
+        top: 9.5rem !important;
+    }
 }
