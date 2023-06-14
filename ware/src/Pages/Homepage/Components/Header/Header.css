@@ -438,5 +438,7 @@
     }
 }
 @media screen and (max-width: 1000px){
-    
+    .h-links{
+        display: none;
+    }
 }
