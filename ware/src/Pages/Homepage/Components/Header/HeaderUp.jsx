@@ -4,12 +4,10 @@ import Logo1 from "./Assets/logo1.png";
 import Logo2 from "./Assets/logo2.png";
 import { Link } from "react-router-dom";
 import Drop from "./Assets/drop.svg";
-import Hamburger from 'hamburger-react'
+import Hamburger from "hamburger-react";
 
 export default function HeaderUp() {
-  const [isOpen, setOpen] = useState(false)
-
-  use hamburger menue for devices with width less than 1000px
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <div id="header">
@@ -17,10 +15,11 @@ export default function HeaderUp() {
         <img src={Logo1} alt="logo1" />
         <img src={Logo2} alt="logo2" />
       </div>
+      <div className="hammenu">
+        <Hamburger toggled={isOpen} toggle={setOpen} />
+      </div>
 
-      <Hamburger toggled={isOpen} toggle={setOpen} />
-      
-      <div className={`h-links ${isOpen ? 'open' : ''}`}>
+      <div className={`h-links ${isOpen ? "hamopen" : "hamclose"}`}>
         <ul>
           {/* Home */}
           <li>
@@ -44,7 +43,10 @@ export default function HeaderUp() {
               heritage and pride
             </p>
             <div className="dropdown-menu">
-              {/* Dropdown menu content */}
+              <ul>
+                <li><Link to=''>Hello</Link></li>
+                <li><Link to=''>Hello</Link></li>
+              </ul>
             </div>
           </li>
 
@@ -59,9 +61,7 @@ export default function HeaderUp() {
               <br />
               you
             </p>
-            <div className="dropdown-menu">
-              {/* Dropdown menu content */}
-            </div>
+            <div className="dropdown-menu">{/* Dropdown menu content */}</div>
           </li>
 
           {/* MIS Dashboard */}
@@ -75,9 +75,7 @@ export default function HeaderUp() {
               <br />
               information
             </p>
-            <div className="dropdown-menu">
-              {/* Dropdown menu content */}
-            </div>
+            <div className="dropdown-menu">{/* Dropdown menu content */}</div>
           </li>
 
           {/* Finance */}
@@ -91,9 +89,7 @@ export default function HeaderUp() {
               <br />
               business opportunities
             </p>
-            <div className="dropdown-menu">
-              {/* Dropdown menu content */}
-            </div>
+            <div className="dropdown-menu">{/* Dropdown menu content */}</div>
           </li>
 
           {/* Procurement */}
@@ -107,9 +103,7 @@ export default function HeaderUp() {
               <br />
               business opportunities
             </p>
-            <div className="dropdown-menu">
-              {/* Dropdown menu content */}
-            </div>
+            <div className="dropdown-menu">{/* Dropdown menu content */}</div>
           </li>
         </ul>
       </div>

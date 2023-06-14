@@ -245,6 +245,9 @@
 .hd-notification:hover{
     animation: notification 1.5s ease-in-out infinite alternate;
 }
+.hammenu{
+    display: none;
+}
 @keyframes notification{
     0%{
         color: #06726D;
@@ -440,5 +443,125 @@
 @media screen and (max-width: 1000px){
     .h-links{
         display: none;
+    }
+    .hammenu{
+        display: block;
+        z-index: 51;
+        position: absolute;
+        right: 5%;
+    }
+    .hamclose{
+        display: none;
+    }
+    .hamopen{
+        display: block;
+        position: relative;
+    }
+    .hamopen ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #c2e6f2;
+        align-items: center;
+        width: 100vw;
+        left: -17.9rem;
+        z-index: 50;
+        top: -5rem;
+        /* height: 100vh; */
+        justify-content: flex-start;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        gap: 2rem;
+    }
+    .h-links ul li a{
+        font-size: 22px;
+    }
+    .h-links ul li p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .h-links ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .h-links ul li:hover .dropdown-menu ul{
+        padding: 0;
+        width: 20rem;
+        display: flex;
+        gap: 0.5rem;
+        /* padding-right: 2rem; */
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .h-links ul li:hover .dropdown-menu{
+        top: 164%;
+        left: 11rem;
+    }
+    .head-down{
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .hd-links{
+        width: 32rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .hamopen ul{
+        left: -17.5rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .hamopen ul {
+        left: -17.2rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .hd-links ul{
+        flex-wrap: wrap;
+    }
+    .h-logos {
+        width: 7rem;
+    }
+    .h-logos img{
+        width: 42%;
+    }
+    #header {
+        padding: 2rem 0rem 0rem 0.5rem;
+    }
+    .head-main span {
+        padding: 0.3rem 0.8rem;
+    }
+    .head-down {
+        padding: 0rem 0.5rem;
+    }
+    .hamopen ul {
+        left: -11.5rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .hamopen ul {
+        left: -10.5rem;
+    }    
+    .h-links ul li:hover .dropdown-menu ul {
+        width: 18rem;
+        left: -16rem;
+    }
+    .dropdown-menu ul li a {
+        font-size: 16px;
+    }
+    .head-down {
+        padding: 0rem 1rem;
+    }
+    .hd-links ul a, .hd-notification {
+        font-size: 12px;
+    }
+    .h-socials a img {
+        width: 20px;
+    }
+    #header {
+        padding: 1rem 0rem 0rem 0.5rem;
     }
 }

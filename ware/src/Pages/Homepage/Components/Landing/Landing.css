@@ -126,3 +126,44 @@
         gap: 0.5rem;
     }
 }
+@media screen and (max-width: 1000px){
+    .landing{
+        flex-wrap: wrap;
+    }
+    .landing-l{
+        width: 95%;
+    }
+    .landing-r h3{
+        font-size: 18px;
+    }
+    .landing-rql a{
+        font-size: 14px;
+    }
+    .landing-rql{
+        justify-content: center;
+    }
+    .landing-r{
+        padding: 1rem 2rem 2rem 2rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .landing {
+        padding: 0 0.5rem;
+    }
+    .landing-l {
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .landing-l {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 425px){
+    .landing-l {
+        width: 87%;
+    }
+    .landing-rql a {
+        font-size: 10px;
+    }
+}
