@@ -44,8 +44,8 @@ export default function HeaderUp() {
             </p>
             <div className="dropdown-menu">
               <ul>
-                <li><Link to=''>Hello</Link></li>
-                <li><Link to=''>Hello</Link></li>
+                <li><Link to=''>Photo Gallery</Link></li>
+                <li><Link to=''>Video Gallery</Link></li>
               </ul>
             </div>
           </li>
@@ -110,3 +110,8 @@ export default function HeaderUp() {
     </div>
   );
 }
+
+
+{/* <video preload="none" controls="" style="width:480px;height:480px;">
+      <source src="http://hafed.gov.in/sites/default/files/video-thumbnails/2018-02/Rice-advt_0.mp4">
+  </video> */}
