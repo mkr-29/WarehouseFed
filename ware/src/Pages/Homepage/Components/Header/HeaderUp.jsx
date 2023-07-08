@@ -44,8 +44,8 @@ export default function HeaderUp() {
             </p>
             <div className="dropdown-menu">
               <ul>
-                <li><Link to=''>Photo Gallery</Link></li>
-                <li><Link to=''>Video Gallery</Link></li>
+                <li><Link to='/photo-gallery'>Photo Gallery</Link></li>
+                <li><Link to='/video-gallery'>Video Gallery</Link></li>
               </ul>
             </div>
           </li>

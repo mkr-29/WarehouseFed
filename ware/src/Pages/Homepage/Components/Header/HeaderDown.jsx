@@ -29,7 +29,7 @@ export default function HeaderDown() {
             <span className="hdspan" />
           </li>
           <li>
-            <Link to="">Photo Gallery</Link>
+            <Link to="/photo-gallery">Photo Gallery</Link>
             <span className="hdspan" />
           </li>
           <li>
