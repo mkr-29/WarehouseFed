@@ -56,7 +56,7 @@ export default function HeaderDown() {
           </li>
         </ul>
       </div>
-      <Link to="" className="hd-notification">
+      <Link to="/notifications" className="hd-notification">
         Notifications
         <img src={Notification} alt="notification" />
       </Link>

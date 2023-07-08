@@ -1,11 +1,13 @@
-import React from 'react'
-import "./Landing.css"
-import Carousel1 from './Carousel1'
-import {Link} from "react-router-dom"
+import React from 'react';
+import "./Landing.css";
+import Carousel1 from './Carousel1';
+import {Link} from "react-router-dom";
+import Asset1 from "./Assets/asset1.svg";
 
 export default function Landing() {
   return (
     <div className='landing'>
+        <img src={Asset1} alt="" className='asset-1' />
         <div className="landing-l">
             <Carousel1
                 heading1="For all your Warehousing needs"

@@ -3,6 +3,12 @@
     margin-top: 2rem;
     display: flex;
     gap: 2rem;
+    position: relative;
+}
+.asset-1{
+    position: absolute;
+    top: -4.7rem;
+    left: 2.5rem;
 }
 .landing-l{
     width: 55%;
@@ -115,6 +121,11 @@
     .landing-rql{
         padding: 0 2rem !important;
     }
+    .asset-1 {
+        top: 10rem;
+        left: 7.5rem;
+        rotate: 90deg;
+    }
 }
 @media screen and (max-width: 1150px){
     .landing-rql {
@@ -145,6 +156,9 @@
     .landing-r{
         padding: 1rem 2rem 2rem 2rem;
     }
+    .asset-1 {
+        top: 23rem;
+    }
 }
 @media screen and (max-width: 600px){
     .landing {
@@ -153,10 +167,16 @@
     .landing-l {
         width: 90vw;
     }
+    .asset-1 {
+        top: 26.5rem;
+    }
 }
 @media screen and (max-width: 500px){
     .landing-l {
         width: 90%;
+    }
+    .asset-1 {
+        top: 27.7rem;
     }
 }
 @media screen and (max-width: 425px){
@@ -165,5 +185,9 @@
     }
     .landing-rql a {
         font-size: 10px;
+    }
+    .asset-1 {
+        top: -9rem;
+        left: 14rem;
     }
 }

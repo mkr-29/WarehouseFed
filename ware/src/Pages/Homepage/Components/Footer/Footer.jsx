@@ -14,7 +14,7 @@ export default function Footer() {
             <img src={Notification} alt="notification" />
             <span>Notifications and Updates</span>
           </div>
-          <Link className="noti-1" to="">3+ New announcements</Link>
+          <Link className="noti-1" to="/notifications">3+ New announcements</Link>
           <span />
           <Link className="noti-1" to="">Tap to view all</Link>
           <Link to="">
