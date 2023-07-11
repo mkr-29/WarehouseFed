@@ -13,8 +13,11 @@
     font-weight: 700;
     margin-bottom: 1rem;
 }
+.overview img{
+    /* blend multiply */
+    mix-blend-mode: multiply;
+}
 .overview p {
-    /* width: 90%; */
     text-align: justify;
   font-family: var(--font2);
   font-size: 22px;
