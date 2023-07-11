@@ -1,0 +1,119 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8rem;
+    margin-top: 2rem;
+    color: var(--color1);
+}
+.profile h1{
+    font-family: var(--font1);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.profile img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.profile p{
+    font-family: var(--font2);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+.profile p a{
+    color: black;
+}
+.profile h2{
+    font-family: var(--font1);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+.profile table{
+    border: 2px solid var(--color1);
+    border-radius: 0 0 10px 10px;
+    font-family: var(--font2);
+    border-spacing: 0;
+}
+.profile table caption{
+    caption-side: top;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid var(--color1);
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+  /* background-color: #f2f2f2; */
+}
+.profile table th{
+    border: 2px solid var(--color1);
+    border-radius: 0;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+}
+.profile table td{
+    border: 2px solid var(--color1);
+    border-radius: 0;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    border-left: none;
+}
+.profile table td:nth-last-child(1){
+    border-right: none;
+}
+.bod-about table td{
+    border: 2px solid var(--color1);
+    border-radius: 0;
+    /* border-bottom: none; */
+    border-top: none;
+    text-align: center;
+    border-left: none;
+    padding: 0.5rem;
+}
+.profile table th:nth-last-child(1){
+    border-right: none;
+}
+.bod-tab{
+    border-bottom: none;
+}
+.bod-about table th{
+    padding: 1rem;
+    text-align: left;
+}
+.bod-about table{
+    border-radius: 10px;
+}
+.bod-about table tr td{
+    vertical-align: top;
+}
+.bod-about table td h3{
+    text-align: left;
+}
+.our-functions hr{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.our-functions h1{
+    margin-bottom: 0;
+}
+.our-functions span{
+    font-weight: 500;
+    font-size: 24px;
+}
+.our-functions ul li{
+    font-family: var(--font2);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0.7rem;
+    text-align: justify;
+}

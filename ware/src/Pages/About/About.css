@@ -1,28 +1,28 @@
 #about {
   margin-top: 2rem;
 }
-.about-overview {
+.about-sec {
   display: flex;
   flex-direction: column;
   padding: 0 8rem;
   color: var(--color1);
   width: 77%;
 }
-.about-overview h2 {
+.about-sec h2 {
   font-family: var(--font1);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 1rem;
 }
-.about-overview p {
+.about-sec p {
   font-family: var(--font2);
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: 32.5px;
 }
-.about-overview a{
+.about-sec a{
     text-decoration: none;
     color: var(--color1);
     text-align: right;
