@@ -25,7 +25,7 @@ export default function HeaderDown() {
       <div className="hd-links">
         <ul>
           <li>
-            <Link to="">About HSWC</Link>
+            <Link to="/about">About HSWC</Link>
             <span className="hdspan" />
           </li>
           <li>

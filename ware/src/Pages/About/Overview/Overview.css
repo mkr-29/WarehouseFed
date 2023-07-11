@@ -1,0 +1,25 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  color: var(--color1);
+  padding: 0 8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.overview h1 {
+    font-family: var(--font1);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.overview p {
+    /* width: 90%; */
+    text-align: justify;
+  font-family: var(--font2);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.5px;
+  margin-top: 2rem;
+}
