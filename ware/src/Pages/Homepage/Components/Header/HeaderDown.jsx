@@ -34,6 +34,7 @@ export default function HeaderDown() {
           </li>
           <li>
             <Link to="/employee-corner">Employee Corner</Link>
+            <span className="hdspan" />
           </li>
           <li>
             <Link to="">File RTI</Link>
