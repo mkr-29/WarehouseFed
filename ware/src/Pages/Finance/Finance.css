@@ -10,6 +10,12 @@
 .finance-turn tr td{
     vertical-align: top;
 }
+.finance-annualrep h6{
+    margin-bottom: 0;
+}
+.finance-annualrep h1{
+    margin-top: 0;
+}
 .finance-annualrep a{
     color: var(--color1);
     font-size: 18px;

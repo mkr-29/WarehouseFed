@@ -7,8 +7,9 @@ export default function FinanceOverview() {
   return (
     <>
       <Header/>
-      <div className="overview">
-        <h1>Finance - Overview</h1>
+      <div className="overview p-overview">
+        <h6>Finance</h6>
+        <h1>Overview</h1>
         <p>
           During the year 2021-22, the Corporation has earned a profit of Rs.
           3211 lakh before tax and Rs. 3144 lakh after tax.

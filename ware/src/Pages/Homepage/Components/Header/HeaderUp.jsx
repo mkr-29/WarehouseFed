@@ -157,6 +157,12 @@ export default function HeaderUp() {
                 <li>
                   <Link to="/procurement-overview">Overview</Link>
                 </li>
+                <li>
+                  <Link to="/procurement-data">Procurement Data</Link>
+                </li>
+                <li>
+                  <Link to="/technical-reports">Technical Reports</Link>
+                </li>
               </ul>
             </div>
           </li>

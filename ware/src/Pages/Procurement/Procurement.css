@@ -1,18 +1,55 @@
-.p-overview h1{
-    margin-top: 0;
+.p-overview h1 {
+  margin-top: 0;
 }
-.p-overview h6{
-    margin-bottom: 0;
+.p-overview h6 {
+  margin-bottom: 0;
 }
-.p-overview p{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.p-overview p {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.p-overview p img{
-    width: 400px;
-    float: left;
+.p-overview p img {
+  width: 400px;
+  float: left;
+  margin-bottom: 0;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--color1);
 }
-.p-ov-sp{
-    margin-top: 1rem;
+.p-ov-sp {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.p-overview table td {
+  border-bottom: 1px solid var(--color1);
+}
+.p-overview table tr:last-child td {
+  border-bottom: none;
+}
+.p-overview table:nth-last-child(1),
+.p-overview table:nth-last-child(2) {
+  margin-top: 2rem;
+}
+.ppdf-links {
+  border-radius: 15px;
+  background: linear-gradient(127deg, #06726d 0%, #b3c3e3 100%);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.ppdf-links a {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 4px 4px 21px 6px rgba(0, 0, 0, 0.18);
+    padding: 0.5rem 2rem;
+    width: 40%;
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 600;
+    font-family: var(--font2);
 }

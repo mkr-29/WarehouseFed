@@ -8,7 +8,8 @@ export default function PaidupTurnover() {
   return (
     <div>
       <Header />
-      <section className="profile">
+      <section className="profile p-overview">
+        <h6>Finance</h6>
         <h1>Paidup Capital & Turnover/Profits</h1>
         <p>
           The financial achievements of the Corporation since 2016-17 onward are

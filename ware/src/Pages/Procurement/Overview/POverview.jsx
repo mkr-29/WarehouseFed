@@ -15,24 +15,27 @@ export default function POverview() {
         <p>
           <span>
             <img src={ProcurementImg} alt="" />
-            <span>
-              FCI, the nodal central agency of Government of India, along with
-              other State Agencies undertakes procurement of wheat and paddy
-              under price support scheme. The Government policy of procurement
-              of Food grains has broad objectives of ensuring MSP to the farmers
-              and availability of food grains to the weaker sections at
-              affordable prices. It also ensures effective market intervention
-              thereby keeping the prices under check and also adding to the
-              overall food security of the country.
-            </span>
-            <span className="p-ov-sp">
-              The Government of India announces the minimum support prices (MSP)
-              for procurement before the harvest during each Rabi / Kharif Crop
-              season.HSWC Procures wheat.paddy & Bajra for Central Pool as per
-              the direction issued by Government of India/ State Govt. from time
-              to time. It started with procuring only two items i.e. wheat and
-              paddy w.e.f. 1983-84 and 1997-98 respectively.
-            </span>
+            <div className="p-ov-sp">
+              <span>
+                FCI, the nodal central agency of Government of India, along with
+                other State Agencies undertakes procurement of wheat and paddy
+                under price support scheme. The Government policy of procurement
+                of Food grains has broad objectives of ensuring MSP to the
+                farmers and availability of food grains to the weaker sections
+                at affordable prices. It also ensures effective market
+                intervention thereby keeping the prices under check and also
+                adding to the overall food security of the country.
+              </span>
+              <span>
+                The Government of India announces the minimum support prices
+                (MSP) for procurement before the harvest during each Rabi /
+                Kharif Crop season.HSWC Procures wheat.paddy & Bajra for Central
+                Pool as per the direction issued by Government of India/ State
+                Govt. from time to time. It started with procuring only two
+                items i.e. wheat and paddy w.e.f. 1983-84 and 1997-98
+                respectively.
+              </span>
+            </div>
           </span>
           <span>
             The procurement under Price Support is taken up mainly to ensure

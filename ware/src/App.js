@@ -13,6 +13,8 @@ import FinanceOverview from "./Pages/Finance/Overview/FinanceOverview";
 import AnnualReports from "./Pages/Finance/AnnualReports/AnnualReports";
 import PaidupTurnover from "./Pages/Finance/PaidupTurnover/PaidupTurnover";
 import POverview from "./Pages/Procurement/Overview/POverview";
+import ProcurementData from "./Pages/Procurement/ProData/ProcurementData";
+import Technical from "./Pages/Procurement/Technical/Technical";
 
 export default function App() {
   return (
@@ -31,6 +33,8 @@ export default function App() {
           <Route path="finance-paidup-turnover" element={<PaidupTurnover />} />
           <Route path="finance-annual-reports" element={<AnnualReports />} />
           <Route path="procurement-overview" element={<POverview />} />
+          <Route path="procurement-data" element={<ProcurementData />} />
+          <Route path="technical-reports" element={<Technical />} />
       </Routes>
     </BrowserRouter>
   );
