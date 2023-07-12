@@ -7,6 +7,8 @@ import Tw from "./Assets/tw.svg";
 import Yt from "./Assets/yt.svg";
 import Notification from "./Assets/notification.svg";
 import Search from "./Assets/search.svg";
+import VS from "../../../ScientificStorage/Assets/vs.pdf"
+import ST from "../../../ScientificStorage/Assets/st.pdf"
 
 export default function HeaderDown() {
   return (
@@ -29,16 +31,16 @@ export default function HeaderDown() {
             <div className="dropdown-menu">
               <ul>
                 <li>
-                  <Link to="storage-capacity-and-utilization">Storage Capacity & Utilization</Link>
+                  <Link to="/storage-capacity-and-utilization">Storage Capacity & Utilization</Link>
                 </li>
                 <li>
-                  <Link to="vacant-spaces">Vacant Space</Link>
+                  <a href={VS} target="_blank">Vacant Space</a>
                 </li>
                 <li>
-                  <Link to="storage-tariff">Storage Tariff</Link>
+                  <a href={ST} target="_blank">Storage Tariff</a>
                 </li>
                 <li>
-                  <Link to="extension-services">Extension Services</Link>
+                  <Link to="/extension-services">Extension Services</Link>
                 </li>
                 <li>
                   <Link to="business-report">Business Report</Link>

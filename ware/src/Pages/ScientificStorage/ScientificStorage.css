@@ -1,0 +1,16 @@
+.ss-scu img{
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+.ss-scu p{
+    display: block;
+}
+.ss-scu p span{
+    font-weight: 600;
+}
+.ss-scu ul{
+    margin: 0;
+}
+.mt-1{
+    margin-top: 1rem;
+}
