@@ -37,7 +37,7 @@ export default function HeaderUp() {
           {/* Gallery */}
           <li>
             <Link to="/">
-              Gallery
+              About Us
               <img src={Drop} alt="dropdown" />
             </Link>
             <p>
@@ -47,6 +47,9 @@ export default function HeaderUp() {
             </p>
             <div className="dropdown-menu">
               <ul>
+                <li>
+                  <Link to="/about">About HSWC</Link>
+                </li>
                 <li>
                   <Link to="/photo-gallery">Photo Gallery</Link>
                 </li>

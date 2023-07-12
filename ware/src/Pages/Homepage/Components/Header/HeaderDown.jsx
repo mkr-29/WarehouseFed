@@ -25,12 +25,15 @@ export default function HeaderDown() {
       <div className="hd-links">
         <ul>
           <li>
-            <Link to="/about">About HSWC</Link>
+            <Link to="/scientific-storage">Scientific Storage</Link>
             <span className="hdspan" />
           </li>
           <li>
-            <Link to="/photo-gallery">Photo Gallery</Link>
+            <Link to="/photo-gallery">Engineering</Link>
             <span className="hdspan" />
+          </li>
+          <li>
+            <Link to="/employee-corner">Employee Corner</Link>
           </li>
           <li>
             <Link to="">File RTI</Link>
