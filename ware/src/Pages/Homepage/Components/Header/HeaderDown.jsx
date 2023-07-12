@@ -25,15 +25,34 @@ export default function HeaderDown() {
       <div className="hd-links">
         <ul>
           <li>
-            <Link to="/scientific-storage">Scientific Storage</Link>
+            <Link to="#">Scientific Storage</Link>
+            <div className="dropdown-menu">
+              <ul>
+                <li>
+                  <Link to="storage-capacity-and-utilization">Storage Capacity & Utilization</Link>
+                </li>
+                <li>
+                  <Link to="vacant-spaces">Vacant Space</Link>
+                </li>
+                <li>
+                  <Link to="storage-tariff">Storage Tariff</Link>
+                </li>
+                <li>
+                  <Link to="extension-services">Extension Services</Link>
+                </li>
+                <li>
+                  <Link to="business-report">Business Report</Link>
+                </li>
+              </ul>
+            </div>
             <span className="hdspan" />
           </li>
           <li>
-            <Link to="/photo-gallery">Engineering</Link>
+            <Link to="#">Engineering</Link>
             <span className="hdspan" />
           </li>
           <li>
-            <Link to="/employee-corner">Employee Corner</Link>
+            <Link to="#">Employee Corner</Link>
             <span className="hdspan" />
           </li>
           <li>
