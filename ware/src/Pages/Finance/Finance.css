@@ -1,0 +1,16 @@
+.finance-turn{
+    border-radius: 10px !important;
+}
+.finance-turn tr td{
+    border-bottom: 1px solid var(--color1);
+}
+.finance-turn tr:nth-last-child(1) td{
+    border-bottom: none;
+}
+.finance-turn tr td{
+    vertical-align: top;
+}
+.finance-annualrep a{
+    color: var(--color1);
+    font-size: 18px;
+}

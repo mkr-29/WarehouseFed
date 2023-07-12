@@ -9,6 +9,10 @@ import Overview from "./Pages/About/Overview/Overview";
 import Profile from "./Pages/About/Profile/Profile";
 import Functions from "./Pages/About/Profile/Functions/Functions";
 import Bod from "./Pages/About/BOD/Bod";
+import FinanceOverview from "./Pages/Finance/Overview/FinanceOverview";
+import AnnualReports from "./Pages/Finance/AnnualReports/AnnualReports";
+import PaidupTurnover from "./Pages/Finance/PaidupTurnover/PaidupTurnover";
+import POverview from "./Pages/Procurement/Overview/POverview";
 
 export default function App() {
   return (
@@ -23,6 +27,10 @@ export default function App() {
           <Route path="about/profile-objective" element={<Profile />} />
           <Route path="about/profile-objective/our-functions" element={<Functions />} />
           <Route path="about/board-of-directors" element={<Bod />} />
+          <Route path="finance-overview" element={<FinanceOverview />} />
+          <Route path="finance-paidup-turnover" element={<PaidupTurnover />} />
+          <Route path="finance-annual-reports" element={<AnnualReports />} />
+          <Route path="procurement-overview" element={<POverview />} />
       </Routes>
     </BrowserRouter>
   );

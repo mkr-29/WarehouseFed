@@ -80,8 +80,8 @@
 .profile table th:nth-last-child(1){
     border-right: none;
 }
-.bod-tab{
-    border-bottom: none;
+.bod-tab td{
+    border-bottom: none !important;
 }
 .bod-about table th{
     padding: 1rem;

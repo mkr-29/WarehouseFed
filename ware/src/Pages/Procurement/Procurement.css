@@ -1,0 +1,18 @@
+.p-overview h1{
+    margin-top: 0;
+}
+.p-overview h6{
+    margin-bottom: 0;
+}
+.p-overview p{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.p-overview p img{
+    width: 400px;
+    float: left;
+}
+.p-ov-sp{
+    margin-top: 1rem;
+}

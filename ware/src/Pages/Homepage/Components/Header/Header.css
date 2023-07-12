@@ -237,6 +237,9 @@
 .h-socials a img:hover{
     animation: socials 0.5s ease-in-out infinite alternate;
 }
+.header-admin .dropdown-menu{
+    left: 0 !important;
+}
 @keyframes socials{
     0%{
         transform: scale(1);
