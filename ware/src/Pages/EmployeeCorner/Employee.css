@@ -22,6 +22,7 @@
 .ec-cooi table td a{
     text-decoration: none;
     color: var(--color-1);
+    transition: all 0.3s ease-in-out;
 }
 .ec-downloads table{
     border-radius: 10px;
@@ -29,7 +30,14 @@
 .ec-downloads table td a{
     text-decoration: none;
     color: var(--color-1);
+    transition: all 0.3s ease-in-out;
 }
 .ec-downloads table td{
     padding: 0.3rem;
+}
+.ec-cooi table td a:hover{
+    color: black;
+}
+.ec-downloads table td a:hover{
+    color: black;
 }

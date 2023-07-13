@@ -36,7 +36,7 @@ export default function About() {
             In a room adorned with wisdom's embrace, The Board of Directors,
             with vision and grace, Guiding the ship, their expertise we embrace.
           </p>
-          <Link to="board-of-directors">Know More</Link>
+          <Link to="board-of-directors">Know More...</Link>
         </section>
       </div>
       <Footer />

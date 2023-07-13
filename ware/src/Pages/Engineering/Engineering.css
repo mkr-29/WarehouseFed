@@ -23,3 +23,12 @@
     border-radius: 10px;
     border: 2px solid var(--color1);
 }
+.eng-layoutp table{
+    border-radius: 10px;
+}
+.eng-layoutp table:nth-last-child(1),
+.eng-layoutp table:nth-last-child(2),
+.eng-layoutp table:nth-last-child(3),
+.eng-layoutp table:nth-last-child(4){
+    margin-top: 3rem;
+}
