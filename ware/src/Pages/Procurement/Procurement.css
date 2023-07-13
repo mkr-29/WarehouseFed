@@ -43,13 +43,13 @@
 }
 
 .ppdf-links a {
-  border-radius: 10px;
+  border-radius: 5px;
   background: #fff;
   box-shadow: 4px 4px 21px 6px rgba(0, 0, 0, 0.18);
-    padding: 0.5rem 2rem;
-    width: 40%;
-    text-decoration: none;
-    color: var(--color1);
-    font-weight: 600;
-    font-family: var(--font2);
+  padding: 0.5rem 2rem;
+  width: 40%;
+  text-decoration: none;
+  color: var(--color1);
+  font-weight: 600;
+  font-family: var(--font2);
 }

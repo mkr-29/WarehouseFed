@@ -9,6 +9,11 @@ import Notification from "./Assets/notification.svg";
 import Search from "./Assets/search.svg";
 import VS from "../../../ScientificStorage/Assets/vs.pdf"
 import ST from "../../../ScientificStorage/Assets/st.pdf"
+import ESOG from "../../../Engineering/Assets/esog.pdf"
+import EMTF from "../../../Engineering/Assets/emtf.pdf"
+import DOP from "../../../EmployeeCorner/Assets/dop.pdf"
+import EIL from "../../../EmployeeCorner/Assets/eil.pdf"
+import SP from "../../../EmployeeCorner/Assets/sp.pdf"
 
 export default function HeaderDown() {
   return (
@@ -43,7 +48,7 @@ export default function HeaderDown() {
                   <Link to="/extension-services">Extension Services</Link>
                 </li>
                 <li>
-                  <Link to="business-report">Business Report</Link>
+                  <Link to="/business-report">Business Report</Link>
                 </li>
               </ul>
             </div>
@@ -51,10 +56,60 @@ export default function HeaderDown() {
           </li>
           <li>
             <Link to="#">Engineering</Link>
+            <div className="dropdown-menu">
+              <ul>
+                <li>
+                  <Link to="/engineering-overview">Overview</Link>
+                </li>
+                <li>
+                  <a href={ESOG} target="_blank">Enineering Spec. of Godowns</a>
+                </li>
+                <li>
+                  <Link to="/capacity-construted-during-the-years">Capacity Constructed During The Years</Link>
+                </li>
+                <li>
+                  <Link to="/layout-plans">Layout Plans</Link>
+                </li>
+                <li>
+                  <Link to={EMTF} target="_blank">Engineering Model Tender Form</Link>
+                </li>
+              </ul>
+            </div>
             <span className="hdspan" />
           </li>
           <li>
             <Link to="#">Employee Corner</Link>
+            <div className="dropdown-menu">
+              <ul>
+                <li>
+                  <Link to="#">Cashless Medical Facility</Link>
+                </li>
+                <li>
+                  <a href={DOP} target="_blank">Delegation of Powers</a>
+                </li>
+                <li>
+                  <a href={EIL} target="_blank">Employee Id. List</a>
+                </li>
+                <li>
+                  <Link to="/hswc-rules-regulations">HSWC Rule & Regulations</Link>
+                </li>
+                <li>
+                  <Link to={SP} target="_blank">Staff Position</Link>
+                </li>
+                <li>
+                  <Link to="/seniority-list">Seniority List</Link>
+                </li>
+                <li>
+                  <Link to="/gpf-statements">GPF Statements</Link>
+                </li>
+                <li>
+                  <Link to="/circulars-office-order-instructions">Circulars/Office Order/Instructions</Link>
+                </li>
+                <li>
+                  <Link to="/employee-corner-downloads">Downloads</Link>
+                </li>
+              </ul>
+            </div>
             <span className="hdspan" />
           </li>
           <li>

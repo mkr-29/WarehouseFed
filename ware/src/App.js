@@ -16,6 +16,16 @@ import POverview from "./Pages/Procurement/Overview/POverview";
 import ProcurementData from "./Pages/Procurement/ProData/ProcurementData";
 import Technical from "./Pages/Procurement/Technical/Technical";
 import SCU from "./Pages/ScientificStorage/SCU/SCU";
+import ExtSer from "./Pages/ScientificStorage/ExtServices/ExtSer";
+import BusinessReport from "./Pages/ScientificStorage/BusinessRep/BusinessReport";
+import EOverview from "./Pages/Engineering/Overview/EOverview";
+import CCDTY from "./Pages/Engineering/CCDTY/CCDTY";
+import LayoutPlans from "./Pages/Engineering/LayoutPlans/LayoutPlans";
+import Rules from "./Pages/EmployeeCorner/Rules/Rules";
+import SeniorityList from "./Pages/EmployeeCorner/Seniority/SeniorityList";
+import GPFStatements from "./Pages/EmployeeCorner/GPF/GPFStatements";
+import COOI from "./Pages/EmployeeCorner/Circulars/COOI";
+import EDownloads from "./Pages/EmployeeCorner/Downloads/EDownloads";
 
 export default function App() {
   return (
@@ -37,6 +47,16 @@ export default function App() {
           <Route path="procurement-data" element={<ProcurementData />} />
           <Route path="technical-reports" element={<Technical />} />
           <Route path="storage-capacity-and-utilization" element={<SCU />} />
+          <Route path="extension-services" element={<ExtSer />} />
+          <Route path="business-report" element={<BusinessReport />} />
+          <Route path="engineering-overview" element={<EOverview />} />
+          <Route path="capacity-construted-during-the-years" element={<CCDTY />} />
+          <Route path="layout-plans" element={<LayoutPlans />} />
+          <Route path="hswc-rules-regulations" element={<Rules />} />
+          <Route path="seniority-list" element={<SeniorityList />} />
+          <Route path="gpf-statements" element={<GPFStatements />} />
+          <Route path="circulars-office-order-instructions" element={<COOI />} />
+          <Route path="employee-corner-downloads" element={<EDownloads />} />
       </Routes>
     </BrowserRouter>
   );

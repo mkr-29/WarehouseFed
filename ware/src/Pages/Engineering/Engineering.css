@@ -1,0 +1,25 @@
+.e-overview img{
+    border-radius: 10px;
+}
+.e-overview ul{
+    margin-top: 0.2rem;
+}
+.ccdty table{
+    width: 62%;
+    border-radius: 10px;
+}
+.eng-layoutp table tr td a{
+    font-weight: 600;
+    text-decoration: underline 1px;
+    color: var(--color1);
+}
+.text-left{
+    text-align: left !important;
+}
+.text-bold{
+    font-weight: 600;
+}
+.eng-layoutp img{
+    border-radius: 10px;
+    border: 2px solid var(--color1);
+}

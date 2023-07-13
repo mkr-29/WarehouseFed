@@ -14,3 +14,20 @@
 .mt-1{
     margin-top: 1rem;
 }
+.ext-ser table{
+    border-radius: 10px;
+    width: 80%;
+}
+.exts-tab-sec{
+    display: flex;
+    gap: 1rem;
+}
+.exts-tab-sec div{
+    display: flex;
+}
+.exts-tab-sec div img{
+    margin-bottom: 0;
+}
+.exts-tab-sec table:nth-last-child(1), .exts-tab-sec table:nth-last-child(2){
+    margin-top: 0;
+}

@@ -1,0 +1,35 @@
+.rules-regl{
+    display: flex;
+    justify-content: space-between;
+}
+.rules-regl table{
+    width: 100%;
+    border-radius: 10px;
+}
+.rules-regl table tr th{
+    padding: 0.3rem;
+}
+.rules-regl table a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.ec-cooi table{
+    border-radius: 10px;
+}
+.ec-cooi table th{
+    padding: 0.3rem;
+}
+.ec-cooi table td a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.ec-downloads table{
+    border-radius: 10px;
+}
+.ec-downloads table td a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.ec-downloads table td{
+    padding: 0.3rem;
+}
