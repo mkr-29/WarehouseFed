@@ -26,6 +26,9 @@ import SeniorityList from "./Pages/EmployeeCorner/Seniority/SeniorityList";
 import GPFStatements from "./Pages/EmployeeCorner/GPF/GPFStatements";
 import COOI from "./Pages/EmployeeCorner/Circulars/COOI";
 import EDownloads from "./Pages/EmployeeCorner/Downloads/EDownloads";
+import Press from "./Pages/PressRelease/Press";
+import ETenders from "./Pages/Tenders/ETenders";
+import GST from "./Pages/GST/GST";
 
 export default function App() {
   return (
@@ -57,6 +60,9 @@ export default function App() {
           <Route path="gpf-statements" element={<GPFStatements />} />
           <Route path="circulars-office-order-instructions" element={<COOI />} />
           <Route path="employee-corner-downloads" element={<EDownloads />} />
+          <Route path="press-release" element={<Press />} />
+          <Route path="tenders-auctions" element={<ETenders />} />
+          <Route path="gst" element={<GST />} />
       </Routes>
     </BrowserRouter>
   );

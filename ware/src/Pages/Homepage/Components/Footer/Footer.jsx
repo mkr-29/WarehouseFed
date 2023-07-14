@@ -23,9 +23,9 @@ export default function Footer() {
           </Link>
         </div>
         <div className="foot-2">
-          <Link to="">Press Release</Link>
-          <Link to="">E-Tender & E-Auction</Link>
-          <Link to="">GST</Link>
+          <Link to="/press-release">Press Release</Link>
+          <Link to="/tenders-auctions">E-Tender & E-Auction</Link>
+          <Link to="/gst">GST</Link>
           <Link to="">RTI</Link>
           <Link to="">HRMS</Link>
         </div>

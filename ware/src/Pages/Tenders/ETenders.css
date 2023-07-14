@@ -1,0 +1,21 @@
+.etenders table{
+    border-radius: 10px !important;
+}
+/* 2nd column of table */
+.etenders table tr td:nth-child(2){
+    width: 70%;
+}
+/* th of the table */
+.etenders table tr th{
+    padding: 0.4rem;
+}
+/* a of table */
+.etenders table tr td a{
+    color: var(--color1);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+/* a:hover of table */
+.etenders table tr td a:hover{
+    color: var(--color3);
+}
