@@ -53,6 +53,7 @@
     text-decoration: none;
     display: flex;
     gap: 0.7rem;
+    transition: all 0.3s ease-in-out;
 }
 .h-links ul li p {
     font-family: 'Ubuntu';
@@ -65,7 +66,7 @@
 }
 
 .h-links ul li a:hover {
-    color: var(--color-primary);
+    color: #189C96
 }
 
 .fas {

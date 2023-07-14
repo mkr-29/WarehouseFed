@@ -14,10 +14,10 @@ export default function HeaderUp() {
 
   return (
     <div id="header">
-      <div className="h-logos">
+      <Link to="/" className="h-logos">
         <img src={Logo1} alt="logo1" />
         <img src={Logo2} alt="logo2" />
-      </div>
+      </Link>
       <div className="hammenu">
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
