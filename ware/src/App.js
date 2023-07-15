@@ -28,7 +28,10 @@ import COOI from "./Pages/EmployeeCorner/Circulars/COOI";
 import EDownloads from "./Pages/EmployeeCorner/Downloads/EDownloads";
 import Press from "./Pages/PressRelease/Press";
 import ETenders from "./Pages/Tenders/ETenders";
-import GST from "./Pages/GST/GST";
+import GSTPage from "./Pages/GST/GSTPage";
+import RTI from "./Pages/RTI/RTI";
+import Pursuance from "./Pages/RTI/Pursuance/Pursuance";
+import SPIO from "./Pages/RTI/SPIO/SPIO";
 
 export default function App() {
   return (
@@ -62,7 +65,10 @@ export default function App() {
           <Route path="employee-corner-downloads" element={<EDownloads />} />
           <Route path="press-release" element={<Press />} />
           <Route path="tenders-auctions" element={<ETenders />} />
-          <Route path="gst" element={<GST />} />
+          <Route path="gst" element={<GSTPage />} />
+          <Route path="rti" element={<RTI />} />
+          <Route path="rti/pursuance-rti" element={<Pursuance />} />
+          <Route path="rti/spio" element={<SPIO />} />
       </Routes>
     </BrowserRouter>
   );

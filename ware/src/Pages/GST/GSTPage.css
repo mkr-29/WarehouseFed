@@ -1,0 +1,13 @@
+.gst-p table{
+    border-radius: 10px;
+}
+.gst-p table th{
+    padding: 0.4rem;
+}
+.gst-p table td a{
+    color: var(--color1);
+    transition: all 0.3s ease-in-out;
+}
+.gst-p table td a:hover{
+    color: var(--color3);
+}

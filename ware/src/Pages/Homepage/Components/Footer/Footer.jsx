@@ -26,7 +26,7 @@ export default function Footer() {
           <Link to="/press-release">Press Release</Link>
           <Link to="/tenders-auctions">E-Tender & E-Auction</Link>
           <Link to="/gst">GST</Link>
-          <Link to="">RTI</Link>
+          <Link to="/rti">RTI</Link>
           <Link to="">HRMS</Link>
         </div>
         <span className="foot-dash" />
