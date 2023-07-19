@@ -27,12 +27,12 @@ export default function Footer() {
           <Link to="/tenders-auctions">E-Tender & E-Auction</Link>
           <Link to="/gst">GST</Link>
           <Link to="/rti">RTI</Link>
-          <Link to="">HRMS</Link>
+          <Link to="//hrmshry.nic.in">HRMS</Link>
         </div>
         <span className="foot-dash" />
         <div className="foot-2">
-          <Link to="">News</Link>
-          <Link to="">Warehouse Network</Link>
+          <Link to="/news">News</Link>
+          <Link to="/warehouse-network">Warehouse Network</Link>
           <Link to="">Grievance Redressal</Link>
           <Link to="">Directory</Link>
           <Link to="">IDC Rewari</Link>

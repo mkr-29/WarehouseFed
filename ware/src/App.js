@@ -32,6 +32,10 @@ import GSTPage from "./Pages/GST/GSTPage";
 import RTI from "./Pages/RTI/RTI";
 import Pursuance from "./Pages/RTI/Pursuance/Pursuance";
 import SPIO from "./Pages/RTI/SPIO/SPIO";
+import News from "./Pages/News/News";
+import WarehouseNetwork from "./Pages/WarehouseNetwork/WarehouseNetwork";
+import Circle from "./Pages/WarehouseNetwork/Circle/Circle";
+import WNetwork from "./Pages/WarehouseNetwork/WNetwork";
 
 export default function App() {
   return (
@@ -69,6 +73,10 @@ export default function App() {
           <Route path="rti" element={<RTI />} />
           <Route path="rti/pursuance-rti" element={<Pursuance />} />
           <Route path="rti/spio" element={<SPIO />} />
+          <Route path="news" element={<News />} />
+          <Route path="warehouse-network" element={<WarehouseNetwork />} />
+          <Route path="warehouse-network/circle" element={<Circle />} />
+          <Route path="warehouse-network/networks" element={<WNetwork />} />
       </Routes>
     </BrowserRouter>
   );
