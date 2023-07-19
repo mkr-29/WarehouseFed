@@ -1,0 +1,100 @@
+[
+    {
+        "dist": "Ambala District",
+        "id": "ambala-district"
+    },
+    {
+        "sno": "1.",
+        "circle": "Ambala",
+        "warehouse": "Ambala City",
+        "designation": "0171-2518702",
+        "incharge": "Sanjeev Kumar , G.K.",
+        "mobile": "9991050031",
+        "email": ""
+    },
+    {
+        "sno": "2.",
+        "circle": "Ambala",
+        "warehouse": "Nasirpur",
+        "designation": "-",
+        "incharge": "Amar Khushal Singh, G.K.",
+        "mobile": "09416452255",
+        "email": ""
+    },
+    {
+        "sno": "3.",
+        "circle": "Ambala",
+        "warehouse": "Naneola",
+        "designation": "0171-2851494",
+        "incharge": "Sat Parkash, G.K.",
+        "mobile": "09813918540",
+        "email": ""
+    },
+    {
+        "sno": "4.",
+        "circle": "Ambala",
+        "warehouse": "Shahzadpur",
+        "designation": "-",
+        "incharge": "Vishal Karan, GK",
+        "mobile": "09467679776",
+        "email": ""
+    },
+    {
+        "sno": "5.",
+        "circle": "Ambala",
+        "warehouse": "Saha",
+        "designation": "0171-2822386",
+        "incharge": "Narender Kumar, JTA",
+        "mobile": "09467322598",
+        "email": ""
+    },
+    {
+        "sno": "6.",
+        "circle": "Ambala",
+        "warehouse": "Mullana",
+        "designation": "01731-275293",
+        "incharge": "Sandeep Kumar, Manager",
+        "mobile": "09416246669",
+        "email": ""
+    },
+    {
+        "dist": "Yamuna Nagar District",
+        "id": "yamuna-nagar-district"
+    },
+    {
+        "sno": "7.",
+        "circle": "Ambala",
+        "warehouse": "Jagadhri",
+        "designation": "01732-242689",
+        "incharge": "Om Parkash, J.T.A.",
+        "mobile": "09466917045",
+        "email": ""
+    },
+    {
+        "sno": "8.",
+        "circle": "Ambala",
+        "warehouse": "Yamuna Nagar",
+        "designation": "01732-227803",
+        "incharge": "Surinder Singh, TA",
+        "mobile": "09541903731",
+        "email": ""
+    },
+    {
+        "sno": "9.",
+        "circle": "Ambala",
+        "warehouse": "Radaur",
+        "designation": "01732-284340",
+        "incharge": "Sandeep Kumar, Manager",
+        "mobile": "09254502000",
+        "email": ""
+    },
+    {
+        "sno": "10.",
+        "circle": "Ambala",
+        "warehouse": "Sadhaura",
+        "designation": "01735-270624",
+        "incharge": "Sandeep Kumar, Manager",
+        "mobile": "09416246669",
+        "email": ""
+    }
+]

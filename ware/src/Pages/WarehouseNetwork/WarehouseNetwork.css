@@ -1,3 +1,19 @@
 .w-netw-links a{
     width: 25%;
 }
+.wh-network table{
+    border-radius: 10px;
+    margin: 0 !important;
+}
+.wh-network h1{
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+/* 2nd table */
+.wh-network table:nth-child(8){
+    border-radius: 0 0 10px 10px;
+}
+.wh-network table:nth-child(9){
+    border-radius: 0 0 10px 10px;
+    margin-top: 2rem !important;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "dist": "Kurukshtera District",
+        "id": "kurukshetra-district"
+    },
+    {
+        "sno": "11.",
+        "warehouse": "Kurushetra-I",
+        "tel": "01744-290119",
+        "incharge": "Rinku Hooda, Manager",
+        "mobile": "09255392386"
+    },
+    {
+        "sno": "12.",
+        "warehouse": "Kurushetra-II",
+        "tel": "01744-294598",
+        "incharge": "Ramesh Kumar, Incharge",
+        "mobile": "09992223688"
+    },
+    {
+        "sno": "13.",
+        "warehouse": "Shahabad",
+        "tel": "01744-240001",
+        "incharge": "Gurdial Singh, G.K.",
+        "mobile": "09034181021"
+    },
+    {
+        "sno": "14.",
+        "warehouse": "Ladwa",
+        "tel": "01744-264113",
+        "incharge": "Janeshwar Parshad, TA",
+        "mobile": "09416661712"
+    },
+    {
+        "sno": "15.",
+        "warehouse": "Ismailabad",
+        "tel": "01744-252032",
+        "incharge": "Satya Parkash, Incharge",
+        "mobile": "09813278630"
+    },
+    {
+        "sno": "16.",
+        "warehouse": "Pehowa",
+        "tel": "01741-220090",
+        "incharge": "Anil Kumar, Incharge",
+        "mobile": "09999999302"
+    },
+    {
+        "sno": "17.",
+        "warehouse": "Gumthala Garhu",
+        "tel": "01741-281226",
+        "incharge": "Jai Bhagwan, GK",
+        "mobile": "09813021983"
+    },
+    {
+        "sno": "18.",
+        "warehouse": "Pipli",
+        "tel": "01744-231617",
+        "incharge": "Naseeb Singh, Incharge",
+        "mobile": "094166-71621"
+    }
+]
