@@ -1,0 +1,123 @@
+[
+    {
+        "dist": "Palwal District",
+        "id": "palwal-district"
+    },
+    {
+        "sno": "99.",
+        "warehouse": "Palwal-I",
+        "tel": "01275-252129",
+        "incharge": "Baldev, JTA",
+        "mobile": "09466667509"
+    },
+    {
+        "sno": "100.",
+        "warehouse": "Palwal-III",
+        "tel": "-",
+        "incharge": "Surender Lal Sharma",
+        "mobile": "09896101749"
+    },
+    {
+        "sno": "101.",
+        "warehouse": "Sewali",
+        "tel": "-",
+        "incharge": "Sombir Singh, TA",
+        "mobile": "09017921240"
+    },
+    {
+        "sno": "102.",
+        "warehouse": "Hodal-I",
+        "tel": "01275-235557",
+        "incharge": "Deepak Kumar, TA",
+        "mobile": "09467942506"
+    },
+    {
+        "sno": "103.",
+        "warehouse": "Badauli",
+        "tel": "-",
+        "incharge": "Virender Singh, Manager",
+        "mobile": "08901132826"
+    },
+    {
+        "sno": "104.",
+        "warehouse": "Hathin",
+        "tel": "01275-261394",
+        "incharge": "Ashok Kumar, TA",
+        "mobile": "09416512440"
+    },
+    {
+        "dist": "Gurugram District",
+        "id": "gurugram-district"
+    },
+    {
+        "sno": "105.",
+        "warehouse": "Pataudi",
+        "tel": "0124-2671019",
+        "incharge": "G.S.Yadav, TA",
+        "mobile": "09466277588"
+    },
+    {
+        "sno": "106.",
+        "warehouse": "Farukh Nagar",
+        "tel": "01268-275202",
+        "incharge": "Suman, JTA",
+        "mobile": "07837855607"
+    },
+    {
+        "sno": "107.",
+        "warehouse": "Sewari",
+        "tel": "-",
+        "incharge": "Sombir Singh, TA",
+        "mobile": "09017921240"
+    },
+    {
+        "dist": "Nuh District",
+        "id": "nuh-district"
+    },
+    {
+        "sno": "108.",
+        "warehouse": "Tauru",
+        "tel": "01267-201530",
+        "incharge": "Ajay Kumar, TA",
+        "mobile": "09813383780"
+    },
+    {
+        "sno": "109.",
+        "warehouse": "Nuh",
+        "tel": "01267-271294",
+        "incharge": "Parveen Kumar, GK",
+        "mobile": "09050849068"
+    },
+    {
+        "sno": "110.",
+        "warehouse": "Pinangwan",
+        "tel": "01268-205436",
+        "incharge": "Akil Ahmad, JTA",
+        "mobile": "09813734786"
+    },
+    {
+        "sno": "111.",
+        "warehouse": "Ferozepur Zhirka",
+        "tel": "01268-277020",
+        "incharge": "Akil Ahmad, JTA",
+        "mobile": "09813734786"
+    },
+    {
+        "dist": "Faridabad District",
+        "id": "faridabad-district"
+    },
+    {
+        "sno": "112.",
+        "warehouse": "Kheri Kalan",
+        "tel": "-",
+        "incharge": "Satya Parkash, G.K.",
+        "mobile": "09466458765"
+    },
+    {
+        "sno": "113.",
+        "warehouse": "Sevli",
+        "tel": "-",
+        "incharge": "Kuldeep Singh,Mgr.",
+        "mobile": "-"
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "dist": "Rewari District",
+        "id": "rewari-district"
+    },
+    {
+        "sno": "89.",
+        "warehouse": "Rewari-I",
+        "tel": "01274-223203",
+        "incharge": "Sri Bhagwan, Manager",
+        "mobile": "09416341918"
+    },
+    {
+        "sno": "90.",
+        "warehouse": "Rewari-II",
+        "tel": "-",
+        "incharge": "Rajender Kumar Manager",
+        "mobile": "09416261687"
+    },
+    {
+        "dist": "Jhajjar District",
+        "id": "jhajjar-district"
+    },
+    {
+        "sno": "91.",
+        "warehouse": "Jhajjar",
+        "tel": "01251-252231",
+        "incharge": "Manjeet, JTA",
+        "mobile": "08930943030"
+    },
+    {
+        "sno": "92.",
+        "warehouse": "Bhadurgarh",
+        "tel": "01276-230170",
+        "incharge": "Raman Kapoor, G.K.",
+        "mobile": "09416385453"
+    },
+    {
+        "sno": "93.",
+        "warehouse": "Rampura",
+        "tel": "-",
+        "incharge": "Rajesh Kumar, JTA",
+        "mobile": "09991340113"
+    },
+    {
+        "dist": "Mahendragarh District",
+        "id": "mahendragarh-district"
+    },
+    {
+        "sno": "94.",
+        "warehouse": "Narnaul",
+        "tel": "01282-251294",
+        "incharge": "Vijay Kumar, Manager",
+        "mobile": "09416593094"
+    },
+    {
+        "sno": "95.",
+        "warehouse": "Kanina",
+        "tel": "01285-235408",
+        "incharge": "K. K. Rao, Manager",
+        "mobile": "09896370798"
+    },
+    {
+        "sno": "96.",
+        "warehouse": "Ateli",
+        "tel": "01282-276289",
+        "incharge": "Kawal Singh, G.K",
+        "mobile": "09728633548"
+    },
+    {
+        "sno": "97.",
+        "warehouse": "Nangal Chaudhary",
+        "tel": "01282-278279",
+        "incharge": "Bijender Singh, G.K.",
+        "mobile": "08607756010"
+    },
+    {
+        "sno": "98.",
+        "warehouse": "Mahendragarh",
+        "tel": "01285-220444",
+        "incharge": "Ruby Hooda, JTA",
+        "mobile": "09466844950"
+    }
+]

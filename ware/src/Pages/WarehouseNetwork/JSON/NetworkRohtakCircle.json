@@ -1,0 +1,115 @@
+[
+    {
+        "dist": "Rohtak District",
+        "id": "rohtak-district"
+    },
+    {
+        "sno": "74.",
+        "warehouse": "Rohtak-I",
+        "tel": "01262-265650",
+        "incharge": "Bijender Singh, TA",
+        "mobile": "09466278287"
+    },
+    {
+        "sno": "75.",
+        "warehouse": "Rohtak-II",
+        "tel": "01262-215893",
+        "incharge": "Devender Singh, G.K.",
+        "mobile": "09996733771"
+    },
+    {
+        "sno": "76.",
+        "warehouse": "Lakhan Majra",
+        "tel": "-",
+        "incharge": "Rohtas Dahiya Incharge",
+        "mobile": "08053438800"
+    },
+    {
+        "sno": "77.",
+        "warehouse": "Meham",
+        "tel": "01257-233826",
+        "incharge": "Sandeep, Incharge",
+        "mobile": "09728840777"
+    },
+    {
+        "dist": "Jind District",
+        "id": "jind-district"
+    },
+    {
+        "sno": "78.",
+        "warehouse": "Jind",
+        "tel": "01681-251824",
+        "incharge": "Raj Kumar, G.K.",
+        "mobile": "09416657364"
+    },
+    {
+        "sno": "79.",
+        "warehouse": "Safidon-I",
+        "tel": "01686-262071",
+        "incharge": "Sumit, Incharge",
+        "mobile": "09468025647"
+    },
+    {
+        "sno": "80.",
+        "warehouse": "Safidon-II",
+        "tel": "01686-291124",
+        "incharge": "Jagminder Singh GK",
+        "mobile": "09896222544"
+    },
+    {
+        "sno": "81.",
+        "warehouse": "Uchana",
+        "tel": "01684-230244",
+        "incharge": "Sunita, Manager",
+        "mobile": "07357676534"
+    },
+    {
+        "sno": "82.",
+        "warehouse": "Alewa",
+        "tel": "01681-291624",
+        "incharge": "Ram Phal, G.K.",
+        "mobile": "09729311599"
+    },
+    {
+        "sno": "83.",
+        "warehouse": "Dhamtan Sahib",
+        "tel": "01684-273148",
+        "incharge": "Sanjay Hooda, Incharge",
+        "mobile": "09466831587"
+    },
+    {
+        "sno": "84.",
+        "warehouse": "Dhanouri",
+        "tel": "01683-274145",
+        "incharge": "Kashmiri Lal, GK",
+        "mobile": "09467123946"
+    },
+    {
+        "sno": "85.",
+        "warehouse": "Jullana",
+        "tel": "01683-274153",
+        "incharge": "Amardeep, JTA",
+        "mobile": "09812020141"
+    },
+    {
+        "sno": "86.",
+        "warehouse": "Nagura",
+        "tel": "-",
+        "incharge": "Om Parkash, Khyalia, Manager",
+        "mobile": "09896903500"
+    },
+    {
+        "sno": "87.",
+        "warehouse": "Nayabans",
+        "tel": "-",
+        "incharge": "J.S. Nara, TA",
+        "mobile": "09896903507"
+    },
+    {
+        "sno": "88.",
+        "warehouse": "Gugaheri",
+        "tel": "-",
+        "incharge": "Surender Singh, Incharge",
+        "mobile": "09354903901"
+    }
+]

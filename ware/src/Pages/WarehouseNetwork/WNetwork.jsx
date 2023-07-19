@@ -12,6 +12,9 @@ import NetworkKaithalCircle from "./JSON/NetworkKaithalCircle.json";
 import NetworkPanipatCircle from "./JSON/NetworkPanipatCircle.json";
 import NetworkFatehbadCircle from "./JSON/NetworkFatehbadCircle.json";
 import NetworkSirsaCircle from "./JSON/NetworkSirsaCircle.json";
+import NetworkRohtakCircle from "./JSON/NetworkRohtakCircle.json";
+import NetworkRewariCircle from "./JSON/NetworkRewariCircle.json";
+import NetworkPalwalCircle from "./JSON/NetworkPalwalCircle.json";
 import CircleDistrictTableTemplate2 from "./Templates/CircleDistrictTableTemplate2";
 
 export default function WNetwork() {
@@ -99,6 +102,39 @@ export default function WNetwork() {
             <th>Mobile No.</th>
           </tr>
           <CircleDistrictTableTemplate2 data={NetworkSirsaCircle} />
+        </table>
+        <table>
+          <caption id="rohtak-circle">Rohtak Circle</caption>
+          <tr>
+            <th>SNo.</th>
+            <th>Name of Warehouse</th>
+            <th>Telephone No.</th>
+            <th>Name of Manager/Incharge/Staff</th>
+            <th>Mobile No.</th>
+          </tr>
+          <CircleDistrictTableTemplate2 data={NetworkRohtakCircle} />
+        </table>
+        <table>
+          <caption id="rewari-circle">Rewari Circle</caption>
+          <tr>
+            <th>SNo.</th>
+            <th>Name of Warehouse</th>
+            <th>Telephone No.</th>
+            <th>Name of Manager/Incharge/Staff</th>
+            <th>Mobile No.</th>
+          </tr>
+          <CircleDistrictTableTemplate2 data={NetworkRewariCircle} />
+        </table>
+        <table>
+          <caption id="palwal-circle">Palwal Circle</caption>
+          <tr>
+            <th>SNo.</th>
+            <th>Name of Warehouse</th>
+            <th>Telephone No.</th>
+            <th>Name of Manager/Incharge/Staff</th>
+            <th>Mobile No.</th>
+          </tr>
+          <CircleDistrictTableTemplate2 data={NetworkPalwalCircle} />
         </table>
       </section>
       <Footer />
