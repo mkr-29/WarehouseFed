@@ -1,0 +1,76 @@
+[
+    {
+        "dist": "Sirsa District",
+        "id": "sirsa-district"
+    },
+    {
+        "sno": "63.",
+        "warehouse": "Sirsa-I",
+        "tel": "01666-241427",
+        "incharge": "Aad Ram, T.A.",
+        "mobile": "09416724411"
+    },
+    {
+        "sno": "64.",
+        "warehouse": "Dabwali",
+        "tel": "01668-222745",
+        "incharge": "Vishal Rohilla, JTA",
+        "mobile": "09467035124"
+    },
+    {
+        "sno": "65.",
+        "warehouse": "Ellenabad",
+        "tel": "01698-220969",
+        "incharge": "Inder Pal, T.A.",
+        "mobile": "09812943804"
+    },
+    {
+        "sno": "66.",
+        "warehouse": "Kalanwali",
+        "tel": "01996-222028",
+        "incharge": "Attar Singh, Manager",
+        "mobile": "09416358364"
+    },
+    {
+        "sno": "67.",
+        "warehouse": "Rania",
+        "tel": "01698-251106",
+        "incharge": "Kura Ram, TA",
+        "mobile": "09812946055"
+    },
+    {
+        "sno": "68.",
+        "warehouse": "Chautala",
+        "tel": "01668-250599",
+        "incharge": "Sombir Singh, JTA",
+        "mobile": "09728032831"
+    },
+    {
+        "sno": "69.",
+        "warehouse": "Jeewan Nagar",
+        "tel": "01698-272339",
+        "incharge": "Satyawan Singh, G.K.",
+        "mobile": "09416204177"
+    },
+    {
+        "sno": "70.",
+        "warehouse": "Rori",
+        "tel": "01696-240110",
+        "incharge": "Sumer Singh, G.K.",
+        "mobile": "09416534077"
+    },
+    {
+        "sno": "71.",
+        "warehouse": "Bani",
+        "tel": "01698-277225",
+        "incharge": "Kharait Lal, G.K.",
+        "mobile": "08901245053"
+    },
+    {
+        "sno": "72.",
+        "warehouse": "Baraguda",
+        "tel": "-",
+        "incharge": "Bhimsain, G.K.",
+        "mobile": "09467434900"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "dist": "Kaithal District",
+        "id": "kaithal-district"
+    },
+    {
+        "sno": "19.",
+        "warehouse": "Kaithal-I",
+        "tel": "01746-222471",
+        "incharge": "Reshu Dahiya, Manager",
+        "mobile": "09215553161"
+    },
+    {
+        "sno": "20.",
+        "warehouse": "Kaithal-II",
+        "tel": "01746-222571",
+        "incharge": "Yatendraveer Tyagi, Manager",
+        "mobile": "09255202868"
+    },
+    {
+        "sno": "21.",
+        "warehouse": "Kaithal-III",
+        "tel": "01746-232522",
+        "incharge": "Bani Singh, J.T.A.",
+        "mobile": "09416822037"
+    },
+    {
+        "sno": "22.",
+        "warehouse": "Pundri",
+        "tel": "01746-270275",
+        "incharge": "Ishwar Chand, G.K.",
+        "mobile": "08295960940"
+    },
+    {
+        "sno": "23.",
+        "warehouse": "Siwan",
+        "tel": "01746-240780",
+        "incharge": "Bhalle Ram, Manager",
+        "mobile": "09466242800"
+    },
+    {
+        "sno": "24.",
+        "warehouse": "Cheeka-I",
+        "tel": "01743-221867",
+        "incharge": "Bahadur Singh, G.K.",
+        "mobile": "09416394123"
+    },
+    {
+        "sno": "25.",
+        "warehouse": "Cheeka-II",
+        "tel": "01743-223939",
+        "incharge": "Ravi Kumar, Manager",
+        "mobile": "09896355461"
+    },
+    {
+        "sno": "26.",
+        "warehouse": "Jakholi",
+        "tel": "01746-258687",
+        "incharge": "Karamvir, G.K.",
+        "mobile": "09466242846"
+    },
+    {
+        "sno": "27.",
+        "warehouse": "Pai",
+        "tel": "01746-287004",
+        "incharge": "Bhannu Ram, G.K.",
+        "mobile": "09991295338"
+    },
+    {
+        "sno": "28.",
+        "warehouse": "Kaul",
+        "tel": "01746-254262",
+        "incharge": "Jagdish Ram , G.K.",
+        "mobile": "09416051375"
+    },
+    {
+        "sno": "29.",
+        "warehouse": "Kalayat",
+        "tel": "01746-260007",
+        "incharge": "Pawan Kumar, G.K.",
+        "mobile": "09896038253"
+    },
+    {
+        "sno": "30.",
+        "warehouse": "Rajound",
+        "tel": "-",
+        "incharge": "Deepak Kumar, G.K.",
+        "mobile": "09813375265"
+    },
+    {
+        "sno": "31.",
+        "warehouse": "Santokh Majra",
+        "tel": "-",
+        "incharge": "Paramjeet, G.K.",
+        "mobile": "09812743792"
+    }
+]

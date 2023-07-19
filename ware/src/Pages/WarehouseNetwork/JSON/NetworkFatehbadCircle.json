@@ -1,0 +1,149 @@
+[
+    {
+        "dist": "Hisar District",
+        "id": "hisar-district"
+    },
+    {
+        "sno": "49.",
+        "circle": "Fatehbad",
+        "warehouse": "Barwala",
+        "designation": "Manager",
+        "incharge": "Shri. Mahesh Chander",
+        "mobile": "94160-07760",
+        "email": "mmvp.disodia@gmail.com"
+    },
+    {
+        "sno": "50.",
+        "circle": "Fatehbad",
+        "warehouse": "Hansi",
+        "designation": "Manager",
+        "incharge": "Shri. Rajesh Kumar",
+        "mobile": "92155-53994",
+        "email": "reajeshdisodia77860@gmail.com"
+    },
+    {
+        "sno": "51.",
+        "circle": "Fatehbad",
+        "warehouse": "Uklana",
+        "designation": "Technical Assistant",
+        "incharge": "Shri. Omparkash",
+        "mobile": "94669-17045",
+        "email": "omparkashnoli65@gmail.com"
+    },
+    {
+        "dist": "Fatehbad District",
+        "id": "fatehbad-district"
+    },
+    {
+        "sno": "52.",
+        "circle": "Fatehbad",
+        "warehouse": "Fatehabad",
+        "designation": "Manager",
+        "incharge": "Shri. Mahabir Singh",
+        "mobile": "98129-7975",
+        "email": "123mahabirsingh@gmail.com"
+    },
+    {
+        "sno": "53.",
+        "circle": "Fatehbad",
+        "warehouse": "Dharsul",
+        "designation": "Godown Keeper",
+        "incharge": "Shri. Satish Kumar",
+        "mobile": "98121-80548",
+        "email": "satishmathur229@gmail.com"
+    },
+    {
+        "sno": "54.",
+        "circle": "Fatehbad",
+        "warehouse": "Tohana-I",
+        "designation": "Manager",
+        "incharge": "Shri. Deepak Kumar",
+        "mobile": "98965-73925",
+        "email": "dkarora123@gmail.com"
+    },
+    {
+        "sno": "55.",
+        "circle": "Fatehbad",
+        "warehouse": "Tohana-II",
+        "designation": "Manager",
+        "incharge": "Shri. Rangi Ram",
+        "mobile": "99926-42351",
+        "email": "rangiram4526@gmaill.com"
+    },
+    {
+        "sno": "",
+        "circle": "Fatehbad",
+        "warehouse": "Tohana-III",
+        "designation": "Manager",
+        "incharge": "Shri. Sanjay Hooda",
+        "mobile": "94668-31587",
+        "email": "shooda417.sh@gmail.com"
+    },
+    {
+        "sno": "56.",
+        "circle": "Fatehbad",
+        "warehouse": "Jakhal",
+        "designation": "Technical Assistant",
+        "incharge": "Shri. Sandeep Kumar",
+        "mobile": "97288-40777",
+        "email": "sandeepchauhan678310@gmail.com"
+    },
+    {
+        "sno": "57.",
+        "circle": "Fatehbad",
+        "warehouse": "Rattia",
+        "designation": "Technical Assistant",
+        "incharge": "Shri. Sombir",
+        "mobile": "97280-32831",
+        "email": "sombirusman@gmail.com"
+    },
+    {
+        "sno": "58.",
+        "circle": "Fatehbad",
+        "warehouse": "Bhuna",
+        "designation": "Godown Keeper",
+        "incharge": "Shri. Satish Kumar",
+        "mobile": "98121-80548",
+        "email": "satishmathur229@gmail.com"
+    },
+    {
+        "sno": "59.",
+        "circle": "Fatehbad",
+        "warehouse": "Bhattu",
+        "designation": "Manager",
+        "incharge": "Shri. Rakesh Kumar",
+        "mobile": "98127-90051",
+        "email": "rakeshdudi350@gmail.com"
+    },
+    {
+        "dist": "Bhiwani District",
+        "id": "bhiwani-district"
+    },
+    {
+        "sno": "60.",
+        "circle": "Fatehbad",
+        "warehouse": "Bhiwani",
+        "designation": "Godown Keeper",
+        "incharge": "Shri. Rajesh Morya",
+        "mobile": "97292-95761",
+        "email": "rajeshkumarmaurya0061@gmail.com"
+    },
+    {
+        "sno": "61.",
+        "circle": "Fatehbad",
+        "warehouse": "Bawani Khera",
+        "designation": "Godown Keeper",
+        "incharge": "Shri. Babu Lal",
+        "mobile": "74538-50000",
+        "email": "dharmbirisharwal87@gmail.com"
+    },
+    {
+        "sno": "62",
+        "circle": "Fatehbad",
+        "warehouse": "Kolawas",
+        "designation": "Technical Assistant",
+        "incharge": "Shri. Rohtas Lamba",
+        "mobile": "94168-60299",
+        "email": "rohtas1967kumar@gmail.com"
+    }
+]

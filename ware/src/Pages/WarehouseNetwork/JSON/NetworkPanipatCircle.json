@@ -1,0 +1,133 @@
+[
+    {
+        "dist": "Panipat District",
+        "id": "panipat-district"
+    },
+    {
+        "sno": "32.",
+        "warehouse": "Panipat-I",
+        "tel": "0180-2650208",
+        "incharge": "Sharvan Kumar, G.K.",
+        "mobile": "09729297533"
+    },
+    {
+        "sno": "33.",
+        "warehouse": "Panipat -II",
+        "tel": "0180-2664714",
+        "incharge": "Joyti, J.T.A",
+        "mobile": "09255071516"
+    },
+    {
+        "sno": "34.",
+        "warehouse": "Madlauda",
+        "tel": "0180-2584242",
+        "incharge": "Narender Kumar, JTA",
+        "mobile": "09671964789"
+    },
+    {
+        "sno": "35.",
+        "warehouse": "Samalkha",
+        "tel": "0180-2572269",
+        "incharge": "Suman Chahal, JTA",
+        "mobile": "09467672999"
+    },
+    {
+        "sno": "36.",
+        "warehouse": "Israna",
+        "tel": "0180-2579536",
+        "incharge": "Jai Pal Kundu, TA",
+        "mobile": "09416433736"
+    },
+    {
+        "sno": "37.",
+        "warehouse": "Bapoli",
+        "tel": "0180-2587726",
+        "incharge": "Dalbir Singh, TA",
+        "mobile": "09466046905"
+    },
+    {
+        "dist": "Karnal District",
+        "id": "karnal-district"
+    },
+    {
+        "sno": "38.",
+        "warehouse": "Salwan",
+        "tel": "01749-285026",
+        "incharge": "Sandeep, JTA",
+        "mobile": "09729091090"
+    },
+    {
+        "sno": "39.",
+        "warehouse": "Gharaunda-I",
+        "tel": "01748-250079",
+        "incharge": "S. K. Malik, Manager",
+        "mobile": "09466343588"
+    },
+    {
+        "sno": "40.",
+        "warehouse": "Gharaunda-II",
+        "tel": "01748-250247",
+        "incharge": "Ramesh Kumar, Manager",
+        "mobile": "09467048653"
+    },
+    {
+        "sno": "41.",
+        "warehouse": "Jundla",
+        "tel": "01745-274242",
+        "incharge": "Sonu, JTA",
+        "mobile": "09728166592"
+    },
+    {
+        "sno": "42.",
+        "warehouse": "Taraori",
+        "tel": "01745-242094",
+        "incharge": "Guru Parsad, J.T.A.",
+        "mobile": "08930068998"
+    },
+    {
+        "sno": "43.",
+        "warehouse": "Nigdhu",
+        "tel": "01745-201142",
+        "incharge": "Ravinder Singh, T.A.",
+        "mobile": "09466517398"
+    },
+    {
+        "sno": "44.",
+        "warehouse": "Gheer",
+        "tel": "0184-2386702",
+        "incharge": "Vikas Tyagi, J.T.A.",
+        "mobile": "09466773640"
+    },
+    {
+        "sno": "45.",
+        "warehouse": "Barsat",
+        "tel": "01748-258120",
+        "incharge": "Jagpal Singh, Manager",
+        "mobile": "09812201890"
+    },
+    {
+        "sno": "46.",
+        "warehouse": "Nissing",
+        "tel": "01745-271561",
+        "incharge": "Jeet Kumar, Manager",
+        "mobile": "09896111768"
+    },
+    {
+        "dist": "Sonepat District",
+        "id": "sonepat-district"
+    },
+    {
+        "sno": "47.",
+        "warehouse": "Gohana",
+        "tel": "01263-252194",
+        "incharge": "Pardeep Kumar, JTA",
+        "mobile": "09991655252"
+    },
+    {
+        "sno": "48.",
+        "warehouse": "Pungthala",
+        "tel": "0130-2490172",
+        "incharge": "Dinesh Parkash, TA",
+        "mobile": "09416537226"
+    }
+]
