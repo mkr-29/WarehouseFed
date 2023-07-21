@@ -58,6 +58,7 @@
   padding: 0;
   width: 90%;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .updates-noti ul li {
     width: 12.5vw;
@@ -130,17 +131,20 @@
         padding: 0px 1rem;
     }
     .updates-noti ul li {
-        width: 18.5vw;
+        width: 32.5vw;
     }
     .noti-upd h1 {
-        font-size: 26px;
+        font-size: 22px;
     }
     .noti-upd ul li {
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-left: -1.5rem;
     }
     .updates-noti ul li a {
         font-size: 12px;
+        
     }
     .updates-noti{
         margin-bottom: 2rem;
