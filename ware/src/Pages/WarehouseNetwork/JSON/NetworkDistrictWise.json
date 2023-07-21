@@ -1,68 +1,90 @@
 [
     {
-        "dist": "AMBALA"
+        "dist": "AMBALA",
+        "id": "ambala-district"
     },
     {
-        "dist": "BHIWANI"
+        "dist": "BHIWANI",
+        "id": "bhiwani-district"
     },
     {
-        "dist": "CHARKHI DADRI"
+        "dist": "CHARKHI DADRI",
+        "id": "charkhi-dadri-district"
     },
     {
-        "dist": "FARIDABAD"
+        "dist": "FARIDABAD",
+        "id": "faridabad-district"
     },
     {
-        "dist": "FATEHABAD"
+        "dist": "FATEHBAD",
+        "id": "fatehbad-district"
     },
     {
-        "dist": "GURUGRAM"
+        "dist": "GURUGRAM",
+        "id": "gurugram-district"
     },
     {
-        "dist": "HISAR"
+        "dist": "HISAR",
+        "id": "hisar-district"
     },
     {
-        "dist": "JHAJJAR"
+        "dist": "JHAJJAR",
+        "id": "jhajjar-district"
     },
     {
-        "dist": "JIND"
+        "dist": "JIND",
+        "id": "jind-district"
     },
     {
-        "dist": "KAITHAL"
+        "dist": "KAITHAL",
+        "id": "kaithal-district"
     },
     {
-        "dist": "KARNAL"
+        "dist": "KARNAL",
+        "id": "karnal-district"
     },
     {
-        "dist": "KURUKSHETRA"
+        "dist": "KURUKSHETRA",
+        "id": "kurukshetra-district"
     },
     {
-        "dist": "MAHENDERGARH"
+        "dist": "MAHENDERGARH",
+        "id": "mahendragarh-district"
     },
     {
-        "dist": "NUH"
+        "dist": "NUH",
+        "id": "nuh-district"
     },
     {
-        "dist": "PALWAL"
+        "dist": "PALWAL",
+        "id": "palwal-district"
     },
     {
-        "dist": "PANCHKULA"
+        "dist": "PANCHKULA",
+        "id": "panchkula-district"
     },
     {
-        "dist": "PANIPAT"
+        "dist": "PANIPAT",
+        "id": "panipat-district"
     },
     {
-        "dist": "REWARI"
+        "dist": "REWARI",
+        "id": "rewari-district"
     },
     {
-        "dist": "ROHTAK"
+        "dist": "ROHTAK",
+        "id": "rohtak-district"
     },
     {
-        "dist": "SIRSA"
+        "dist": "SIRSA",
+        "id": "sirsa-district"
     },
     {
-        "dist": "SONEPAT"
+        "dist": "SONEPAT",
+        "id": "sonepat-district"
     },
     {
-        "dist": "YAMUNANAGAR"
+        "dist": "YAMUNANAGAR",
+        "id": "yamunanagar-district"
     }
 ]

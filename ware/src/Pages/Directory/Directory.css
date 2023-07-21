@@ -1,0 +1,28 @@
+.directory-bod{
+    border-radius: 10px !important;
+}
+.directory-bod th{
+    padding: 10px 0px !important;
+}
+/* 1st col */
+.directory-bod td:nth-child(2),
+.directory-bod td:nth-child(3),
+.directory-bod td:nth-child(4)
+{
+    width: 1%;
+}
+/* last row */
+.directory-bod tr:last-child td{
+    font-weight: 500;
+}
+.directory-head-office{
+    border-radius: 10px !important;
+}
+.directory-head-office tr:nth-child(2) th:nth-child(2){
+    border-right: 2px solid var(--color1);
+}
+/* last tr */
+.directory-head-office tr:last-child td{
+    font-weight: 500;
+}
+.directory-district-managers{}

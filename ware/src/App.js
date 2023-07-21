@@ -34,8 +34,10 @@ import Pursuance from "./Pages/RTI/Pursuance/Pursuance";
 import SPIO from "./Pages/RTI/SPIO/SPIO";
 import News from "./Pages/News/News";
 import WarehouseNetwork from "./Pages/WarehouseNetwork/WarehouseNetwork";
-import Circle from "./Pages/WarehouseNetwork/Circle/Circle";
 import WNetwork from "./Pages/WarehouseNetwork/WNetwork";
+import WGeography from "./Pages/WarehouseNetwork/WGeography";
+import Directory from "./Pages/Directory/Directory";
+import IDCRewari from "./Pages/IDC/IDCRewari";
 
 export default function App() {
   return (
@@ -75,8 +77,10 @@ export default function App() {
           <Route path="rti/spio" element={<SPIO />} />
           <Route path="news" element={<News />} />
           <Route path="warehouse-network" element={<WarehouseNetwork />} />
-          <Route path="warehouse-network/circle" element={<Circle />} />
           <Route path="warehouse-network/networks" element={<WNetwork />} />
+          <Route path="warehouse-network/geography" element={<WGeography />} />
+          <Route path="directory" element={<Directory />} />
+          <Route path="idc/rewari" element={<IDCRewari />} />
       </Routes>
     </BrowserRouter>
   );

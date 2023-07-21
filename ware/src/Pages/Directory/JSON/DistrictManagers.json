@@ -1,0 +1,56 @@
+[
+    {
+        "circle": "AMBALA CIRCLE",
+        "manager": "Shri Sandeep Kumar",
+        "office": "(0171)- 2518598",
+        "mobile": "9729091090"
+    },
+    {
+        "circle": "KURUKSHETRA CIRCLE",
+        "manager": "Shri Ajay Kumar",
+        "office": "(01744)-290358",
+        "mobile": "9467673371"
+    },
+    {
+        "circle": "KAITHAL CIRCLE",
+        "manager": "Shri Dilbag Singh",
+        "office": "(01746)- 222364 ",
+        "mobile": "9812680048"
+    },
+    {
+        "circle": "PANIPAT CIRCLE",
+        "manager": "Shri Manoj Prasher",
+        "office": "(0180) - 2658062",
+        "mobile": "8506081118"
+    },
+    {
+        "circle": "FATEHABAD CIRCLE",
+        "manager": "Shri J.S Nara",
+        "office": "01744 -224284",
+        "mobile": "9896903507"
+    },
+    {
+        "circle": "SIRSA CIRCLE",
+        "manager": "Shri Harish",
+        "office": "(01666) - 241393",
+        "mobile": "9728110042"
+    },
+    {
+        "circle": "ROHTAK CIRCLE",
+        "manager": "Shri Rohtash Dahiya",
+        "office": "(01262)-265651",
+        "mobile": "8053438800"
+    },
+    {
+        "circle": "PALWAL CIRCLE",
+        "manager": "Shri Manoj Prasher",
+        "office": "(0129)-2426656",
+        "mobile": "9466970929"
+    },
+    {
+        "circle": "REWARI CIRCLE",
+        "manager": "Shri Rohtash Dahiya",
+        "office": "(01274)-222963",
+        "mobile": "8053438800"
+    }
+]

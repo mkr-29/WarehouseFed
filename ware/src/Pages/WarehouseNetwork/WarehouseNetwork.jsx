@@ -11,9 +11,8 @@ export default function WarehouseNetwork() {
         <section className='profile p-overview'>
             <h1>Warehouse Network</h1>
             <div className='ppdf-links'>
-                <Link to="circle">Circle Wise</Link>
-                <Link to="">District Wise</Link>
-                <Link to="">Geography Wise</Link>
+                <Link to="/warehouse-network/networks">Circle / District Wise</Link>
+                <Link to="/warehouse-network/geography">Geography Wise</Link>
             </div>
         </section>
         <Footer/>

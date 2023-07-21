@@ -1,29 +1,38 @@
 [
     {
-        "dist": "Ambala Circle"
+        "dist": "Ambala Circle",
+        "id": "ambala-circle"
     },
     {
-        "dist": "Kurukshetra Circle"
+        "dist": "Kurukshetra Circle",
+        "id": "kurukshetra-circle"
     },
     {
-        "dist": "Kaithal Circle"
+        "dist": "Kaithal Circle",
+        "id": "kaithal-circle"
     },
     {
-        "dist": "Panipat Circle"
+        "dist": "Panipat Circle",
+        "id": "panipat-circle"
     },
     {
-        "dist": "Sirsa Circle"
+        "dist": "Sirsa Circle",
+        "id": "sirsa-circle"
     },
     {
-        "dist": "Fatehbad Circle"
+        "dist": "Fatehbad Circle",
+        "id": "fatehbad-circle"
     },
     {
-        "dist": "Rohtak Circle"
+        "dist": "Rohtak Circle",
+        "id": "rohtak-circle"
     },
     {
-        "dist": "Rewari Circle"
+        "dist": "Rewari Circle",
+        "id": "rewari-circle"
     },
     {
-        "dist": "Palwal Circle"
+        "dist": "Palwal Circle",
+        "id": "palwal-circle"
     }
 ]

@@ -34,8 +34,8 @@ export default function Footer() {
           <Link to="/news">News</Link>
           <Link to="/warehouse-network">Warehouse Network</Link>
           <Link to="">Grievance Redressal</Link>
-          <Link to="">Directory</Link>
-          <Link to="">IDC Rewari</Link>
+          <Link to="/directory">Directory</Link>
+          <Link to="/idc/rewari">IDC Rewari</Link>
         </div>
         <img src={FootAsset} alt="Footer Asset" />
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 function NetworkTablesTemplate({ data }) {
   const rows = Math.ceil(data.length / 3); // Calculate the number of rows needed
@@ -12,7 +13,16 @@ function NetworkTablesTemplate({ data }) {
         return (
           <tr key={rowIndex}>
             {rowData.map((item, index) => (
-              <td key={index}>{item.dist.toUpperCase()}</td>
+              <td key={index}>
+                <ScrollLink
+                  to={item.id}
+                  smooth={true}
+                  duration={1000}
+                  onClick={() => scroll.scrollToTop()}
+                >
+                  {item.dist.toUpperCase()}
+                </ScrollLink>
+              </td>
             ))}
             {Array.from({ length: emptyCols }, (_, index) => (
               <td key={`empty-${index}`} />
