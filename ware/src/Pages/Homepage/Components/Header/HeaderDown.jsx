@@ -54,7 +54,7 @@ export default function HeaderDown() {
             </div>
             <span className="hdspan" />
           </li>
-          <li>
+          <li className="header-down-links-engineering">
             <Link to="#">Engineering</Link>
             <div className="dropdown-menu">
               <ul>
@@ -77,7 +77,7 @@ export default function HeaderDown() {
             </div>
             <span className="hdspan" />
           </li>
-          <li>
+          <li className="header-down-links-employee-corner">
             <Link to="#">Employee Corner</Link>
             <div className="dropdown-menu">
               <ul>

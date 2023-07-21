@@ -26,3 +26,13 @@
   line-height: 32.5px;
   margin-top: 2rem;
 }
+@media screen and (max-width: 600px) {
+  .overview{
+    padding: 0 1rem;
+  }
+  .overview h1{
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+  }
+}

@@ -28,3 +28,27 @@
     text-align: right;
     margin-right: 2rem;
 }
+@media screen and (max-width: 600px) {
+  .about-sec{
+    padding: 0 1rem;
+  }
+  .about-sec h2{
+    font-size: 18px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .about-sec p{
+    font-size: 14px;
+    line-height: normal;
+    width: 100%;
+    text-align: justify;
+    font-weight: 400;
+  }
+  .about-sec{
+    width: calc(100% - 2rem);
+  }
+  .about-sec a{
+    margin-right: 0;
+    font-size: 14px;
+  }
+}

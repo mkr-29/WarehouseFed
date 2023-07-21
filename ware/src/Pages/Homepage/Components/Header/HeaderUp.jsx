@@ -35,8 +35,8 @@ export default function HeaderUp() {
           </li>
 
           {/* Gallery */}
-          <li>
-            <Link to="/">
+          <li className="header-about-link">
+            <Link to="#">
               About Us
               <img src={Drop} alt="dropdown" />
             </Link>
@@ -62,7 +62,7 @@ export default function HeaderUp() {
 
           {/* Administration */}
           <li className="header-admin">
-            <Link to="/administration">
+            <Link to="#">
               Administration
               <img src={Drop} alt="dropdown" />
             </Link>
@@ -88,7 +88,7 @@ export default function HeaderUp() {
 
           {/* MIS Dashboard */}
           <li>
-            <Link to="/mis-dashboard">
+            <Link to="#">
               MIS Dashboard
               <img src={Drop} alt="dropdown" />
             </Link>
@@ -119,8 +119,8 @@ export default function HeaderUp() {
           </li>
 
           {/* Finance */}
-          <li>
-            <Link to="/finance">
+          <li className="header-links-finance">
+            <Link to="#">
               Finance
               <img src={Drop} alt="dropdown" />
             </Link>
@@ -145,8 +145,8 @@ export default function HeaderUp() {
           </li>
 
           {/* Procurement */}
-          <li>
-            <Link to="/procurement">
+          <li className="header-links-procurement">
+            <Link to="#">
               Procurement
               <img src={Drop} alt="dropdown" />
             </Link>
@@ -173,10 +173,4 @@ export default function HeaderUp() {
       </div>
     </div>
   );
-}
-
-{
-  /* <video preload="none" controls="" style="width:480px;height:480px;">
-      <source src="http://hafed.gov.in/sites/default/files/video-thumbnails/2018-02/Rice-advt_0.mp4">
-  </video> */
 }

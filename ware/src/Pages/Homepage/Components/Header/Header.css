@@ -444,9 +444,32 @@
         width: 32px;
     }
 }
+@media screen and (max-width: 1424px){
+    .hd-links ul a{
+        font-size: 14px;
+    }
+    .dropdown-menu ul li a{
+        font-size: 12px;
+    }
+    .hd-notification{
+        font-size: 14px;
+    }
+}
 @media screen and (max-width: 1400px){
     .hd-links ul{
         width: 95%;
+    }
+    .hdspan{
+        margin-left: 0.5rem !important;
+    }
+    .h-socials a img{
+        width: 16px;
+    }
+    .hd-notification img{
+        width: 16px;
+    }
+    .head-down{
+        gap: 1rem;
     }
 }
 @media screen and (max-width: 1300px){
@@ -460,7 +483,7 @@
         padding: 0rem 3rem;
     }
     .hdspan {
-        margin-left: 1.8rem !important;
+        margin-left: 1rem !important;
     }
     .h-links ul li a{
         font-size: 16px;
@@ -479,22 +502,29 @@
         width: 80%;
     }
     .hd-links ul a, .hd-notification{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 1150px){
     .hdspan {
-        margin-left: 1.2rem !important;
+        margin-left: 0.5rem !important;
     }
-}
-@media screen and (max-width: 1150px){
-    .hdspan {
-        margin-left: 1rem !important;
+    .h-socials a img{
+        width: 15px;
+    }
+    .hd-notification img{
+        width: 15px;
+    }
+    .head-down{
+        flex-wrap: wrap;
     }
 }
 @media screen and (max-width: 1050px){
-    .hdspan {
-        margin-left: 0.5rem !important;
+    .hd-links{
+        width: 70%;
+    }
+    .h-links ul li a{
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 1000px){
@@ -549,30 +579,51 @@
         width: 20rem;
         display: flex;
         gap: 0.5rem;
+        /* left: -5rem; */
         /* padding-right: 2rem; */
         padding-top: 0.5rem;
         padding-bottom: 1rem;
     }
     .h-links ul li:hover .dropdown-menu{
-        top: 164%;
+        top: 184%;
         left: 11rem;
     }
-    .head-down{
-        flex-wrap: wrap;
-        gap: 0.5rem;
+    .h-links ul li:hover .dropdown-menu{
+        top: 180%;
+        left: 112% !important;
     }
-    .hd-links{
-        width: 32rem;
+    .header-about-link:hover .dropdown-menu ul{
+        left: -14rem !important;
+    }
+    .header-links-finance:hover .dropdown-menu ul{
+        left: -15.2rem !important;
+    }
+    .header-links-procurement:hover .dropdown-menu ul{
+        left: -15.3rem !important;
     }
 }
 @media screen and (max-width: 900px){
     .hamopen ul{
         left: -17.5rem;
     }
+    .hd-links{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 800px){
     .hamopen ul {
         left: -17.2rem;
+    }
+    .head-down{
+        gap: 0.5rem;
+    }
+    .hd-links ul a, .hd-notification{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 760px){
+    .hd-links{
+        width: 100%;
     }
 }
 @media screen and (max-width: 600px){
@@ -597,10 +648,16 @@
     .hamopen ul {
         left: -11.5rem;
     }
+    .header-down-links-engineering:hover .dropdown-menu ul{
+        left: -6.5rem !important;
+    }
+    .header-down-links-employee-corner:hover .dropdown-menu ul{
+        left: -11rem !important;
+    }
 }
 @media screen and (max-width: 425px){
     .hamopen ul {
-        left: -10.5rem;
+        left: -10.4rem;
     }    
     .h-links ul li:hover .dropdown-menu ul {
         width: 18rem;
