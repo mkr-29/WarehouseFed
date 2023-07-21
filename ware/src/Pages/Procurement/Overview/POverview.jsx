@@ -9,7 +9,7 @@ export default function POverview() {
   return (
     <div>
       <Header />
-      <section className="profile p-overview">
+      <section className="profile p-overview overview-procurement">
         <h6>Procurement</h6>
         <h1>Overview</h1>
         <p>

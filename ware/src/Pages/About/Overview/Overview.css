@@ -35,4 +35,9 @@
     margin-bottom: 0.5rem;
     margin-top: 0rem;
   }
+  .overview p{
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 400;
+  }
 }

@@ -57,3 +57,13 @@
 .ppdf-links a:hover{
   scale: 1.05;
 }
+@media screen and (max-width: 600px) {
+  .overview-procurement p span{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .p-overview p img{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

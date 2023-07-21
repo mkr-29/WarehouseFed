@@ -57,6 +57,9 @@
     border-left: none;
     border-top: none;
 }
+.profile table td:nth-child(1){
+    width: 30%;
+}
 .profile table td{
     border: 2px solid var(--color1);
     border-radius: 0;
@@ -64,17 +67,21 @@
     border-top: none;
     text-align: center;
     border-left: none;
+    border-bottom: 1px solid var(--color1);
 }
 .profile table td:nth-last-child(1){
     border-right: none;
 }
+.profile table tr:last-child td{
+    border-bottom: none;
+}
 .bod-about table td{
-    border: 2px solid var(--color1);
+    border: 1px solid var(--color1);
     border-radius: 0;
-    /* border-bottom: none; */
     border-top: none;
     text-align: center;
     border-left: none;
+    border-right: 2px solid var(--color1);
     padding: 0.5rem;
 }
 .profile table th:nth-last-child(1){
@@ -116,4 +123,68 @@
     line-height: 28px;
     margin-top: 0.7rem;
     text-align: justify;
+}
+.bod-about table td:nth-child(1){
+    width: auto;
+}
+.bod-table-res-mob{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .profile{
+        padding: 0 1rem;
+    }
+    .profile h1{
+        font-size: 22px;
+        margin-bottom: 0.5rem;
+        margin-top: 0rem;
+    }
+    .profile p{
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 400;
+    }
+    .profile h2{
+        font-size: 18px;
+    }
+    .profile ul li{
+        font-size: 14px;
+    }
+    .profile table caption{
+        font-size: 14px;
+    }
+    .profile table th{
+        font-size: 10px;
+    }
+    .profile table td{
+        font-size: 10px;
+    }
+    .our-functions span{
+        font-size: 16px;
+    }
+    .our-functions ul li{
+        line-height: normal;
+        font-size: 14px;
+    }
+    .our-functions ul{
+        margin-left: -25px;
+    }
+    .bod-about table th:nth-child(1),
+    .bod-about table th:nth-child(3)
+    {
+        padding: 0.2rem;
+    }
+    .bod-table-res-mob{
+        display: block;
+    }
+    .bod-table-res-mob td p{
+        font-size: 12px;
+    }
+    .bod-table-res-lap{
+        display: none;
+    }
+    /* .bod-about 1st col */
+    .bod-about table td:nth-child(1){
+        width: 1%;
+    }
 }

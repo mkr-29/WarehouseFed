@@ -7,7 +7,7 @@ export default function FinanceOverview() {
   return (
     <>
       <Header/>
-      <div className="overview p-overview">
+      <div className="overview p-overview finance-overview">
         <h6>Finance</h6>
         <h1>Overview</h1>
         <p>
