@@ -11,3 +11,12 @@
 .gst-p table td a:hover{
     color: var(--color3);
 }
+@media screen and (max-width: 600px) {
+    /* 1st th */
+    .gst-p table tr:nth-child(1) th:nth-child(1){
+        width: auto;
+    }
+    .profile table td:nth-child(1){
+        width: auto;
+    }
+}

@@ -126,7 +126,7 @@ export default function ETenders() {
             <th>Title</th>
             <th>Float Date</th>
             <th>Expiry Date</th>
-            <th>Zone/Region</th>
+            <th>Zone / Region</th>
           </tr>
           <TableTemplate
             files={pdfFiles}

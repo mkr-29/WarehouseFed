@@ -45,7 +45,7 @@ export default function GSTPage() {
     <div>
         <Header/>
         <section className='profile p-overview gst-p'>
-            <h1>GST</h1>GST1 from "./Assets/gst1.pdf"
+            <h1>GST</h1>
             <table>
                 <tr>
                     <th>
